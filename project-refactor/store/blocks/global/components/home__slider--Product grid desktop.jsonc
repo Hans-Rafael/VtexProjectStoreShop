@@ -1,0 +1,45 @@
+{
+  "list-context.image-list#Product grid desktop": {
+    "title":"slider home demo images FULL",
+    "children": [
+      "slider-layout#demo2-images"
+    ],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/img/Shelf.png",
+          "description": "something1 something"
+        },
+        {
+          "image": "assets/img/Shelf.png",
+          "description": "something2 something"
+        },
+        {
+          "image": "assets/img/Shelf.png",
+          "description": "something3 something"
+        },
+        {
+          "image": "assets/img/Shelf.png",
+          "description": "something4 something"
+        },
+        {
+          "image": "assets/img/Shelf.png",
+          "description": "something5 something"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo2-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true
+      //"showNavigationArrows": "desktopOnly",
+      //"blockClass": "carousel"
+    }
+  }
+}

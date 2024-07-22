@@ -6,11 +6,11 @@
       "responsive-layout.tablet#home__secction--1" */
       "responsive-layout.mobile#home__secction--1",
       //"flex-layout.row#hero__desktop",
-      "modal-trigger#example",
-      "list-context.image-list#demo",
-      "list-context.image-list#demo2",
-      "list-context.image-list#demo",
-      "list-context.image-list#demo2"
+      "modal-trigger#text__subtitle",
+      "list-context.image-list#demo__info__cards--slider",
+      "list-context.image-list#Product grid desktop",
+      "list-context.image-list#demo__info__cards--slider",
+      "list-context.image-list#Product grid desktop"
     ]
   }
 }

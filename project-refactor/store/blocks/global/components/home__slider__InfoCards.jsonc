@@ -1,0 +1,45 @@
+{
+  "list-context.image-list#demo__info__cards--slider": {
+    "title":"slider home demo images FULL",
+    "children": [
+      "slider-layout#demo-images"
+    ],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/img/Info Cards 03.png",
+          "description": "something1 something"
+        },
+        {
+          "image": "assets/img/Info Cards 03.png",
+          "description": "something2 something"
+        },
+        {
+          "image": "assets/img/Info Cards 03.png",
+          "description": "something3 something"
+        },
+        {
+          "image": "assets/img/Info Cards 03.png",
+          "description": "something4 something"
+        },
+        {
+          "image": "assets/img/Info Cards 03.png",
+          "description": "something5 something"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  }
+}

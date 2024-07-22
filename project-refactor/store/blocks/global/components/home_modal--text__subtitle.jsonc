@@ -1,0 +1,23 @@
+{
+        "modal-trigger#text__subtitle": {
+            "children": [
+                "rich-text#text__subtitle",
+                "modal-layout#text__subtitle"
+            ]
+        },
+        "rich-text#text__subtitle": {
+            "props": {
+                "text": "An amazing product."
+            }
+        },
+        "modal-layout#text__subtitle": {
+            "children": [
+                "rich-text#modal-content"
+            ]
+        },
+        "rich-text#modal-content": {
+            "props": {
+                "text": "Hello world from Vtex on a Pop_Up"
+            }
+        }
+}
