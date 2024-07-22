@@ -1,0 +1,8 @@
+{
+    "responsive-layout.phone#home__secction--1": {
+        "title": "home section one phone",
+        "children":[
+            "flex-layout.row#phone__home__secction--1"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local("roboto"),
+    url("assets/fonts/Roboto/Roboto-Bold.ttf"), url("assets/fonts/Roboto/Roboto-BlackItalic.ttf");
+  }
+
+  @font-face {
+    font-family: 'Nexa';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    src: url("assets/fonts/Roboto/Roboto-Black.ttf"), url("assets/fonts/Nexa-Heavy.ttf");
+    font-weight: bold;
+  }

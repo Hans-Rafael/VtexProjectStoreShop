@@ -1,0 +1,109 @@
+{
+    "slider-layout#text-test": {
+        "title": "slider bottom home images full",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        },
+        "children": [
+           // "flex-layout.row#test__one--slider-home", //" was before rich-text#1",
+           "image#example_1", 
+           "image#example_2",
+            "image#example_3"
+        ]
+    },
+    "rich-text#1": {
+        "title": "text one",
+        "props": {
+            "text": "Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        }
+    },
+    "rich-text#2": {
+        "title": "text two",
+        "props": {
+            "text": "Test2"
+        }
+    },
+    "rich-text#3": {
+        "title": "text three",
+        "props": {
+            "text": "Test3"
+        }
+    },
+    "image#example_1": {
+        "title": "Image_one",
+        "props": {
+            "src": "assets/img/Shelf.png"
+        }
+    },
+    "image#example_2": {
+        "title": "Image_two",
+        "props": {
+            "src": "assets/img/Shelf.png"
+        }
+    },
+    "image#example_3": {
+        "title": "Image_three",
+        "props": {
+            "src": "assets/img/Shelf.png"
+        }
+    },
+    "image#example_4": {
+        "title": "Image_four",
+        "props": {
+            "src": "assets/img/Shelf.png"
+        }
+    },
+    "image#example_5": {
+        "title": "Image_five",
+        "props": {
+            "src": "assets/img/Shelf.png"
+        }
+    },
+    "image#example_6": {
+        "title": "Image_six",
+        "props": {
+            "src": "assets/img/Shelf.png"
+        }
+    },
+    "flex-layout.row#test__one--slider-home": {
+        "title": "slider row test one",
+        "children": [
+            "flex-layout.col#test__one--slider-home",
+            "flex-layout.col#test__two--slider-home"
+        ]
+    },
+    "flex-layout.col#test__one--slider-home": {
+        "title": "slider col test one",
+        "children": [
+            "image#example_1"
+        ],
+        "props": {
+            "width": "50%"
+        }
+    },
+    "flex-layout.col#test__two--slider-home": {
+        "title": "slider col test two",
+        "children": [
+            "rich-text#1"
+        ]
+       
+    }
+    /* "slider-layout#demo2-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  } */
+    
+}

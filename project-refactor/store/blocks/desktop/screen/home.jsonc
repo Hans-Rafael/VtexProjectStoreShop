@@ -1,0 +1,9 @@
+{
+    "responsive-layout.desktop#home__secction--1": {
+        "title": "home hero section one desktop",
+        "children":[
+            "flex-layout.row#home__secction--1"
+        ]
+    }
+    
+}
