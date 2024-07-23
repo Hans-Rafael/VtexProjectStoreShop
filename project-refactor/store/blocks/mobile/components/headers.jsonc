@@ -1,22 +1,40 @@
 {
-    "sticky-layout#mobile": {
-        "children": [
-          "flex-layout.row#mobile"
-        ]
-      },
-      "flex-layout.row#mobile": {
-        "children": [
-          "drawer",
-          "logo",
-          "flex-layout.col#spacer",
-          "login",
-          "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "main-header-mobile",
-          "preventHorizontalStretch": true,
-          "preserveLayoutOnMobile": true,
-          "fullWidth": true
-        }
-      }
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile"
+    ]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": [
+        "custom-search-bar"
+      ]
+    },
+    "children": [
+      "image#search__hpa"
+    ]
+  },
+  "image#search__hpa": {
+    "title": " Image search for mobile",
+    "props": {
+      "src": "/assets/img/Nav_bar/hpa-search.png"
+    }
+  }
 }
