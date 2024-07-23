@@ -1,11 +1,11 @@
 {
   "list-context.image-list#home__infoCards": {
-    "title":"slider home InfoCards images FULL",
+    "title": "slider home InfoCards images FULL",
     "children": [
       "slider-layout#demo-images"
     ],
     "props": {
-      "height": 650,
+      "height": 350,
       "images": [
         {
           "image": "assets/img/Info Cards 03.png",
@@ -39,7 +39,10 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": [
+        "carousel",
+        "slider-home__infoCards"
+      ]
     }
   }
 }

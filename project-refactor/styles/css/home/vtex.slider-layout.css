@@ -1,3 +1,9 @@
 .paginationDot--isActive{
     background-color: green;
 }
+.slide--slider-home__infoCards{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
