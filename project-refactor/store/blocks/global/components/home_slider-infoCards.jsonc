@@ -1,6 +1,6 @@
 {
-  "list-context.image-list#demo": {
-    "title":"slider home demo images FULL",
+  "list-context.image-list#home__infoCards": {
+    "title":"slider home InfoCards images FULL",
     "children": [
       "slider-layout#demo-images"
     ],
