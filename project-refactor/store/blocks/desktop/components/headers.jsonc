@@ -10,21 +10,29 @@
         ]
     },
     "flex-layout.row#desktop": {
+        "title": "Elements first row header ",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": ""
         },
         "children": [
-            "drawer",
-            "flex-layout.col#logo-desktop",
-            "flex-layout.col#spacer",
+            "drawer", //->global
+            "flex-layout.col#logo-desktop", //>global
             "search-bar",
+            "flex-layout.col#spacer", //>Global
+            //"link#tendencias",
+            "flex-layout.col#tendencias-home",
+            "flex-layout.col#coleccion-home",
+            "flex-layout.col#ofertas-home",
+            "flex-layout.col#cyber__monday-home",
+            "flex-layout.col#never_say-home",
             "locale-switcher",
-            "login",
-            "minicart.v2"
+            "minicart.v2", //>global
+            "login" //>global
         ]
     },
     "flex-layout.col#logo-desktop": {
@@ -34,5 +42,74 @@
         "children": [
             "logo"
         ]
+    },
+    "flex-layout.col#tendencias-home": {
+        "title": "link to tendencias",
+        "props": {
+            "blockClass": "link__text"
+        },
+        "children": [
+            "rich-text#tendencias"
+        ]
+    },
+    "rich-text#tendencias": {
+        "title": "Text from link tendencias",
+        "props": {
+            "text": "**Tendencias** **de** **ITGlobers** ",
+            "font": "t-caption-5"
+        }
+    },
+    ///
+    "flex-layout.col#coleccion-home": {
+        "title": "link to coleccion",
+        "props": {"blockClass": "link__text"},
+        "children": [
+            "rich-text#coleccion"
+        ]
+    },
+    "rich-text#coleccion": {
+        "title": "Text from link coleccion",
+        "props": {
+            "text": " **Coleccion** **del** **mes** "
+        }
+    },
+    "flex-layout.col#ofertas-home": {
+        "title": "link to ofertas",
+        "props": {"blockClass": "link__text"},
+        "children": [
+            "rich-text#ofertas"
+        ]
+    },
+    "rich-text#ofertas": {
+        "title": "Text from link ofertas",
+        "props": {
+            "text": " **Ofertas** **enero** "
+        }
+    },
+    "flex-layout.col#cyber__monday-home": {
+        "title": "link to cyber__monday",
+        "props": {"blockClass": "link__text"},
+        "children": [
+            "rich-text#cyber__monday"
+        ]
+    },
+    "rich-text#cyber__monday": {
+        "title": "Text to link cyber__monday",
+        "props": {
+            "text": " **Cyber** **Monday** "
+        }
+    },
+    "flex-layout.col#never_say-home": {
+        "title": "link to never say never",
+        "props": {"blockClass": "link__text"},
+        "children": [
+            "rich-text#never__say"
+        ]
+    },
+    "rich-text#never__say": {
+        "title": "Text to link never say never",
+        "props": {
+            "text": " **Never** **say** **never**"
+        }
     }
 }
