@@ -1,10 +1,12 @@
 {
     "sticky-layout#desktop": {
+        "title": "header at destop size",
         "props": {
             "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#desktop"
+            "flex-layout.row#desktop",
+            "flex-layout.row#header__row__bottom" //--> global
         ]
     },
     "flex-layout.row#desktop": {
