@@ -1,16 +1,16 @@
 {
-        "modal-trigger#text__subtitle": {
+        "modal-trigger#example": {
             "children": [
-                "rich-text#text__subtitle",
-                "modal-layout#text__subtitle"
+                "rich-text#example",
+                "modal-layout#example"
             ]
         },
-        "rich-text#text__subtitle": {
+        "rich-text#example": {
             "props": {
-                "text": "An amazing product."
+                "text": "Click here"
             }
         },
-        "modal-layout#text__subtitle": {
+        "modal-layout#example": {
             "children": [
                 "rich-text#modal-content"
             ]

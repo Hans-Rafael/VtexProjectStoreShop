@@ -12,9 +12,9 @@
             "blockClass": "carousel"
         },
         "children": [
-            // "flex-layout.row#test__one--slider-home", //" was before rich-text#1",
-            "image#example_1",
-            "image#example_2",
+           // "flex-layout.row#test__one--slider-home", //" was before rich-text#1",
+           "image#example_1", 
+           "image#example_2",
             "image#example_3"
         ]
     },
@@ -93,5 +93,17 @@
         "children": [
             "rich-text#1"
         ]
+       
     }
+    /* "slider-layout#demo2-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  } */
+    
 }

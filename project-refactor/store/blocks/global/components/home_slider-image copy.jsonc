@@ -1,45 +1,45 @@
 {
-  "list-context.image-list#demo__info__cards--slider": {
+  "list-context.image-list#demo2": {
     "title":"slider home demo images FULL",
     "children": [
-      "slider-layout#demo-images"
+      "slider-layout#demo2-images"
     ],
     "props": {
       "height": 650,
       "images": [
         {
-          "image": "assets/img/Info Cards 03.png",
+          "image": "assets/img/Shelf.png",
           "description": "something1 something"
         },
         {
-          "image": "assets/img/Info Cards 03.png",
+          "image": "assets/img/Shelf.png",
           "description": "something2 something"
         },
         {
-          "image": "assets/img/Info Cards 03.png",
+          "image": "assets/img/Shelf.png",
           "description": "something3 something"
         },
         {
-          "image": "assets/img/Info Cards 03.png",
+          "image": "assets/img/Shelf.png",
           "description": "something4 something"
         },
         {
-          "image": "assets/img/Info Cards 03.png",
+          "image": "assets/img/Shelf.png",
           "description": "something5 something"
         }
       ]
     }
   },
-  "slider-layout#demo-images": {
+  "slider-layout#demo2-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 1,
-        "phone": 1
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
       },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "infinite": true
+      //"showNavigationArrows": "desktopOnly",
+      //"blockClass": "carousel"
     }
   }
 }
