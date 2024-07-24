@@ -1,0 +1,68 @@
+{
+    "flex-layout.row#hero__desktop": {
+        "title": "Text no one home",
+        "children": [
+            "flex-layout.col#one--home",
+            "flex-layout.col#two--home",
+            "flex-layout.col#three--home"
+        ],
+        "props": {
+            "blockClass": [
+                "row__one--text",
+                "col__center__img-hero"
+            ],
+            "marginBottom": "8",
+            "marginTop": "1"
+        }
+    },
+    "flex-layout.col#one--home": {
+        "title": "Text col one home",
+        "children": [
+            "image#watch"
+        ],
+        "props": {
+            "width": "33%"
+        }
+    },
+    "flex-layout.col#two--home": {
+        "title": "Text col two home",
+        "children": [
+            "image#text",
+            "image#button_hero"
+        ],
+        "props": {
+            "width": "33%",
+            "blockClass": [
+                "col_center-text-img"
+            ]
+        }
+    },
+    "flex-layout.col#three--home": {
+        "title": "Text col three home",
+        "children": [
+            "image#watch"
+        ],
+        "props": {
+            "width": "33%"
+        }
+    },
+    "image#watch": {
+        "title": "Image watch upside down",
+        "props": {
+            "src": "assets/img/watch_upside_down.png",
+            "alt": "watch"
+        }
+    },
+    "image#text": {
+        "title": "Text_image",
+        "props": {
+            "src": "assets/img/Texts.png"
+        }
+    },
+    "image#button_hero": {
+        "title": "butto_hero",
+        "props": {
+            "src": "assets/img/Button.png"
+        }
+    }
+}
