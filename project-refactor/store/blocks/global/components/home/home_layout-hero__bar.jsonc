@@ -40,7 +40,7 @@
     "flex-layout.col#three--home": {
         "title": "Text col three home",
         "children": [
-            "image#watch"
+            "image#watch3"
         ],
         "props": {
             "width": "33%"
@@ -49,8 +49,15 @@
     "image#watch": {
         "title": "Image watch upside down",
         "props": {
-            "src": "assets/img/watch_upside_down.png",
+            "src": "assets/img/watch.png",
             "alt": "watch"
+        }
+    },
+    "image#watch3": {
+        "title": "Image watch upside down",
+        "props": {
+            "src": "assets/img/watch_upside_down.png",
+            "alt": "watch upside down"
         }
     },
     "image#text": {
