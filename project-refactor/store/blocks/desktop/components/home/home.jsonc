@@ -2,28 +2,26 @@
     "flex-layout.row#home__secction--1": {
         "title": "DESKTOP row with text",
         "children": [
-            "flex-layout.col#desktop__watch--home",
-            "flex-layout.col#desktop__img_txt--home",
-            "flex-layout.col#desktop__watch_two--home"
+            "flex-layout.col#desktop__col1__watch--home",
+            "flex-layout.col#desktop__col2__img_txt--home",
+            "flex-layout.col#desktop__col3__watch_two--home"
         ],
         "props": {
-            "blockClass": [
-                "row__one--text"
-            ],
+            "blockClass":"row__one--images",
             "marginBottom": "8",
             "marginTop": "1"
         }
     },
-    "flex-layout.col#desktop__watch--home": {
+    "flex-layout.col#desktop__col1__watch--home": {
         "title": "Desktop hero image col one home",
         "children": [
-            "image#watch"
+            "image#col1-watch"
         ],
         "props": {
-            "width": "33%"
+            "width": "34%"
         }
     },
-    "flex-layout.col#desktop__img_txt--home": {
+    "flex-layout.col#desktop__col2__img_txt--home": {
         "title": "Desktop hero image col two home",
         "children": [
             "image#text",
@@ -32,24 +30,33 @@
         "props": {
             "width": "33%",
             "blockClass": [
-                "col_center-text-img"
+                "col_center-text-img",
+                "row__one--text"
             ],
             "marginBottom": "8"
         }
     },
-    "flex-layout.col#desktop__watch_two--home": {
+    "flex-layout.col#desktop__col3__watch_two--home": {
         "title": "Desktop hero image col three home",
         "children": [
-            "image#watch"
+            "image#col3-watch2"
         ],
         "props": {
-            "width": "33%"
+            "width": "34%"
         }
     },
-    "image#watch_hero_desktop": {
+    "image#col1-watch": {
         "title": "Image_one_watch_hero",
         "props": {
-            "src": "assets/img/watch.png"
+            "src": "assets/img/watch.png",
+            "alt": "watch upside down"
+        }
+    },
+    "image#col3-watch2": {
+        "title": "Image watch upside down",
+        "props": {
+            "src": "assets/img/watch_upside_down.png",
+            "alt": "watch upside down"
         }
     },
     "image#text_hero": {

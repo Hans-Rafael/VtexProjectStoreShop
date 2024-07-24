@@ -62,7 +62,9 @@
     ///
     "flex-layout.col#coleccion-home": {
         "title": "link to coleccion",
-        "props": {"blockClass": "link__text"},
+        "props": {
+            "blockClass": "link__text"
+        },
         "children": [
             "rich-text#coleccion"
         ]
@@ -70,12 +72,15 @@
     "rich-text#coleccion": {
         "title": "Text from link coleccion",
         "props": {
-            "text": " **Coleccion** **del** **mes** "
+            "text": " **Coleccion** **del** **mes**  ",
+            "font":"t-code"
         }
     },
     "flex-layout.col#ofertas-home": {
         "title": "link to ofertas",
-        "props": {"blockClass": "link__text"},
+        "props": {
+            "blockClass": "link__text"
+        },
         "children": [
             "rich-text#ofertas"
         ]
@@ -88,7 +93,9 @@
     },
     "flex-layout.col#cyber__monday-home": {
         "title": "link to cyber__monday",
-        "props": {"blockClass": "link__text"},
+        "props": {
+            "blockClass": "link__text"
+        },
         "children": [
             "rich-text#cyber__monday"
         ]
@@ -101,7 +108,9 @@
     },
     "flex-layout.col#never_say-home": {
         "title": "link to never say never",
-        "props": {"blockClass": "link__text"},
+        "props": {
+            "blockClass": "link__text"
+        },
         "children": [
             "rich-text#never__say"
         ]

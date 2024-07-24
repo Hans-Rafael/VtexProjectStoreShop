@@ -1,14 +1,24 @@
-.flexRowContent--row__one--text {
+.flexRowContent--row__one--images {
   background-color: #f0f0f2;
+}
+.flexRow--row__one--text {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .flexColContent--col__one--text {
   background-color: #f0f0f2;
 }
 
+
 .flexColChild--col_center-text-img {
   display: flex;
   justify-content: center;
   align-items: center;
+  width:100%/**/
 }
 .flexCol--col__center__img-hero {
   display: flex;
@@ -16,6 +26,20 @@
   align-items: center;
   justify-content: center;
 }
+/*new*/
+.flexColChild--col--background {
+  background-color: #f0f0f2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flexColChild {
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+  flex: 1; /* Flex-grow to ensure columns take up equal space */
+}
+/**/
+
 /***mobile**/
 .flexRowContent--row__one_mobile--text {
   background-color: #f0f0f2;
