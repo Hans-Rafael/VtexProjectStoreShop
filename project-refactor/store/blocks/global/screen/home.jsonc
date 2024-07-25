@@ -5,11 +5,12 @@
       /*"responsive-layout.phone#home__secction--1",
       "responsive-layout.tablet#home__secction--1" */
       "responsive-layout.mobile#home__secction--1",
-      //"flex-layout.row#hero__desktop",
       "modal-trigger#home__text__subtitle",
-      "list-context.image-list#home__infoCards",
+      "slider-layout#sliderhome-infoCards",
+      //"list-context.image-list#sinfoCards-images",
       "list-context.image-list#slider--home__Product__grid",
-      "list-context.image-list#home__infoCards",
+      "slider-layout#sliderhome-infoCards",
+      //"list-context.image-list#home__infoCards",
       "list-context.image-list#slider--home__Product__grid"
     ]
   }

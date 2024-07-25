@@ -12,13 +12,27 @@
 .flexColContent--col__one--text {
   background-color: #f0f0f2;
 }
-
+.flexRowContent--slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  /* width: 100%; */
+  height:324px;
+  width: 336px;
+  height: auto; /* 100%; */ 
+  margin: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
 
 .flexColChild--col_center-text-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%/**/
+  width: 100%; /**/
 }
 .flexCol--col__center__img-hero {
   display: flex;
@@ -26,19 +40,7 @@
   align-items: center;
   justify-content: center;
 }
-/*new*/
-.flexColChild--col--background {
-  background-color: #f0f0f2;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-.flexColChild {
-  box-sizing: border-box; /* Ensures padding and borders are included in the width */
-  flex: 1; /* Flex-grow to ensure columns take up equal space */
-}
-/**/
 
 /***mobile**/
 .flexRowContent--row__one_mobile--text {
@@ -57,12 +59,12 @@
   align-items: center;
   width: 100%;
 }
-.flexCol--col_center__img__txt-imgs{
+.flexCol--col_center__img__txt-imgs {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.flexColChild--link__text{
+.flexColChild--link__text {
   margin-left: 5px;
   margin-right: 5px;
 }

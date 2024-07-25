@@ -1,48 +1,193 @@
 {
-  "list-context.image-list#home__infoCards": {
-    "title": "slider home InfoCards images FULL",
-    "children": [
-      "slider-layout#demo-images"
-    ],
-    "props": {
-      "height": 350,
-      "images": [
-        {
-          "image": "assets/img/Info Cards 03.png",
-          "description": "something1 something"
-        },
-        {
-          "image": "assets/img/Info Cards 03.png",
-          "description": "something2 something"
-        },
-        {
-          "image": "assets/img/Info Cards 03.png",
-          "description": "something3 something"
-        },
-        {
-          "image": "assets/img/Info Cards 03.png",
-          "description": "something4 something"
-        },
-        {
-          "image": "assets/img/Info Cards 03.png",
-          "description": "something5 something"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
+  "slider-layout#sliderhome-infoCards": {
     "props": {
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 1,
         "phone": 1
       },
+      "height": 340,
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
       "blockClass": [
-        "carousel",
-        "slider-home__infoCards"
+        "carousel"
       ]
+    },
+    "children": [
+      "flex-layout.row#slider-item1",
+      "flex-layout.row#slider-item1",
+      "flex-layout.row#slider-item1",
+      "flex-layout.row#slider-item1",
+      "flex-layout.row#slider-item1",
+      "flex-layout.row#slider-item1" 
+    ]
+  },
+  "flex-layout.row#slider-item1": {
+    "title": "Items from first card Slider ",
+    "children": [
+      "image#card-element1",
+      "image#content-frame1",
+      "image#see-price1"
+    ],
+    "props": {
+      "blockClass": "slider-item"
+    }
+  },
+  ////
+  "image#card-element1": {
+    "title": "top element in slider card",
+    "props": {
+      "src": "assets/img/Card_element.png",
+      "alt": "Info service card",
+      "width": 324,
+      "height": 187
+      //"blockClass": "image-element"
+    }
+  },
+  "image#content-frame1": {
+    "props": {
+      "title": "Midle element in slider card",
+      "src": "assets/img/Content_frame.png",
+      "alt": "Content Frame 1",
+      // "blockClass": "image-element-middle",
+      "width": 324,
+      "height": 79.19
+    }
+  },
+  "image#see-price1": {
+    "props": {
+      "title": "Bottom element in slider card",
+      "src": "assets/img/see_price.png",
+      "alt": "See Price 1",
+      // "blockClass": "image-element-bottom__Card",
+      "width": 324,
+      "height": 43
     }
   }
+  /// for use in future
+  /* "flex-layout.row#slider-item2": {
+    "children": [
+      "image#card-element2",
+      "image#content-frame2",
+      "image#see-price2"
+    ],
+    "props": {
+      "blockClass": "slider-item"
+    }
+  },
+  "flex-layout.row#slider-item3": {
+    "children": [
+      "image#card-element3",
+      "image#content-frame3",
+      "image#see-price3"
+    ],
+    "props": {
+      "blockClass": "slider-item"
+    }
+  },
+  "flex-layout.row#slider-item4": {
+    "children": [
+      "image#card-element4",
+      "image#content-frame4",
+      "image#see-price4"
+    ],
+    "props": {
+      "blockClass": "slider-item"
+    }
+  },
+  "flex-layout.row#slider-item5": {
+    "children": [
+      "image#card-element5",
+      "image#content-frame5",
+      "image#see-price5"
+    ],
+    "props": {
+      "blockClass": "slider-item"
+    }
+  },
+  "image#card-element2": {
+    "props": {
+      "src": "assets/img/Card_element.png",
+      "alt": "Card Element 2",
+      "blockClass": "image-element"
+    }
+  },
+  "image#content-frame2": {
+    "props": {
+      "src": "assets/img/Content_frame.png",
+      "alt": "Content Frame 2",
+      "blockClass": "image-element"
+    }
+  },
+  "image#see-price2": {
+    "props": {
+      "src": "assets/img/see_price.png",
+      "alt": "See Price 2",
+      "blockClass": "image-element"
+    }
+  },
+  "image#card-element3": {
+    "props": {
+      "src": "assets/img/Card_element.png",
+      "alt": "Card Element 3",
+      "blockClass": "image-element"
+    }
+  },
+  "image#content-frame3": {
+    "props": {
+      "src": "assets/img/Content_frame.png",
+      "alt": "Content Frame 3",
+      "blockClass": "image-element"
+    }
+  },
+  "image#see-price3": {
+    "props": {
+      "src": "assets/img/see_price.png",
+      "alt": "See Price 3",
+      "blockClass": "image-element"
+    }
+  },
+  "image#card-element4": {
+    "props": {
+      "src": "assets/img/Card_element.png",
+      "alt": "Card Element 4",
+      "blockClass": "image-element"
+    }
+  },
+  "image#content-frame4": {
+    "props": {
+      "src": "assets/img/Content_frame.png",
+      "alt": "Content Frame 4",
+      "blockClass": "image-element"
+    }
+  },
+  "image#see-price4": {
+    "props": {
+      "src": "assets/img/see_price.png",
+      "alt": "See Price 4",
+      "blockClass": "image-element"
+    }
+  },
+  "image#card-element5": {
+    "props": {
+      "src": "assets/img/Card_element.png",
+      "alt": "Card Element 5",
+      "blockClass": "image-element"
+    }
+  },
+  "image#content-frame5": {
+    "props": {
+      "src": "assets/img/Content_frame.png",
+      "alt": "Content Frame 5",
+      "blockClass": "image-element"
+    }
+  },
+  "image#see-price5": {
+    "props": {
+      "src": "assets/img/see_price.png",
+      "alt": "See Price 5",
+      "blockClass": "image-element"
+    }
+  } */
 }

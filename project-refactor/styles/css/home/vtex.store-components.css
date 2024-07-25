@@ -1,0 +1,16 @@
+/* .image-element {
+  width: 324px;
+  height: auto ;
+} */
+.imageElement--image-element {
+  width: 324px;
+  height: 187px;
+}
+.image-element-middle {
+  width: 324px;
+  height: 79.19px;
+}
+.image-element-bottom__Card {
+  width: 324px;
+  height: 43px;
+}
