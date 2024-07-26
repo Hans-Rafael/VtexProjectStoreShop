@@ -3,7 +3,7 @@
     "title": "Slider infoCards Container",
     "props": {
       "blockClass": [
-       "Slider__cointeiner" 
+        "Slider__cointeiner"
       ]
     },
     "children": [
@@ -19,7 +19,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "always",
-      "showPaginationDots": "always",
+      "showPaginationDots": "desktopOnly",
       "height": 340,
       "blockClass": [
         "slider"
@@ -37,6 +37,8 @@
   "flex-layout.col#infoCard": {
     "title": " The full infoCard ",
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "blockClass": [
         "full__card"
       ]
@@ -99,7 +101,7 @@
       "blockClass": [
         "text--title"
       ],
-      "text": " **Heading** "
+      "text": "**Heading**"
     }
   },
   "rich-text#description": {
@@ -126,7 +128,7 @@
   "image#stamp": {
     "title": "Stamp image card",
     "props": {
-      "src": "assets/img/card_slider_one_infocard/stamp.png",
+      "src": "assets/img/card_slider_one_infocard/stamp.png ",
       "blockClass": [
         "stamp__image--card"
       ]
@@ -136,23 +138,27 @@
     "title": "Button",
     "props": {
       "blockClass": [
-        "button--card"
+        "card--button"
       ]
     },
     "children": [
       "image#button"
-      //"rich-text#button--card",
+      //"rich-text#card--button",
       //"image#arrow--card"
     ]
   },
   "image#button": {
-    "title": "buton de ir a ver el precio",
+    "title": "button for go to 'ver el precio' ",
     "props": {
       "alt": "ver el precio",
-      "src": "assets/img/card_slider_one_infocard/see_price.png" //witgh134x43
+      "src": "assets/img/card_slider_one_infocard/see_price.png", //witgh134x43
+      "link": {
+        "url": "https://",
+        "noFollow": false
+      }
     }
   }
-  /* "rich-text#button--card": {
+  /* "rich-text#card--button": {
     "title": "Text button",
     "props": {
       "blockClass": [
