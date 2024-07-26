@@ -17,3 +17,11 @@
 .container {
   background-color: #F6F6F6
 }
+.wrapper--subtitle--text {
+  color: #1d2734;
+  font-size:16px;
+  font-weight: 500;
+  line-height:16.8px;
+  text-align:left;
+  margin-left: 15px;
+}

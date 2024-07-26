@@ -7,7 +7,9 @@
         },
         "rich-text#text__subtitle": {
             "props": {
-                "text": "An amazing product"
+                "font": "Lexend",
+                "text": " **An** **amazing** **product** ",
+                "blockClass":["subtitle--text"]
             }
         },
         "modal-layout#text__subtitle": {
