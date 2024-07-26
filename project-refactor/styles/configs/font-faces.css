@@ -17,9 +17,9 @@
   }
   @font-face {
     font-family: "Lexend";
-    src: url(assets/fonts/Lexend/Lexend-VariableFont_wght.ttf), url(assets/fonts/Lexend.ttf);
+    src: url("assets/fonts/Lexend/Lexend-VariableFont_wght.ttf"), url("assets/fonts/Lexend.ttf");
   }
   @font-face {
     font-family: "Lato";
-    src: url(assets/fonts/Lato/Lato-Black.ttf),url(assets/fonts/Lato/Lato-BlackItalic.ttf),url(assets/fonts/Lato/Lato-Bold.ttf);
+    src: url("assets/fonts/Lato/Lato-Black.ttf"),url("assets/fonts/Lato/Lato-BlackItalic.ttf"),url("assets/fonts/Lato/Lato-Bold.ttf");
   }
