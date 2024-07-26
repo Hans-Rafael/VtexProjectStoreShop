@@ -5,12 +5,13 @@
       /*"responsive-layout.phone#home__secction--1",
       "responsive-layout.tablet#home__secction--1" */
       "responsive-layout.mobile#home__secction--1",
-      "modal-trigger#home__text__subtitle",
-      "slider-layout#sliderhome-infoCards",
-      //"list-context.image-list#sinfoCards-images",
+      "modal-trigger#home__text__subtitle",//sub title
+      "flex-layout.row#slider1__infoCards", ////test to finish first
+      "modal-trigger#home__text__subtitle",//sub title
       "list-context.image-list#slider--home__Product__grid",
-      "slider-layout#sliderhome-infoCards",
-      //"list-context.image-list#home__infoCards",
+      "modal-trigger#home__text__subtitle",//sub title
+      "flex-layout.row#slider1__infoCards", ////test
+      "modal-trigger#home__text__subtitle",//sub title
       "list-context.image-list#slider--home__Product__grid"
     ]
   }

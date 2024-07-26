@@ -281,12 +281,12 @@
       <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/>
     </g>
     <g id="nav-thin-caret--left">
-   <svg class="w-[26px] h-[26px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <path fill-rule="evenodd" d="M13.729 5.575c1.304-1.074 3.27-.146 3.27 1.544v9.762c0 1.69-1.966 2.618-3.27 1.544l-5.927-4.881a2 2 0 0 1 0-3.088l5.927-4.88Z" clip-rule="evenodd"/>
-</svg>
+    <path d="M5.5 15.5002C5.75781 15.5002 5.92969 15.4169 6.10156 15.2502L11 10.5002L9.79687 9.33356L6.35938 12.6669L6.35938 0H4.64063L4.64062 12.6669L1.20312 9.33356L0 10.5002L4.89844 15.2502C5.07031 15.4169 5.24219 15.5002 5.5 15.5002Z" transform="translate(16.0002) rotate(90)" fill="currentColor"/>
+   
     </g>
     <g id="nav-thin-caret--right">
-      <path d="M5 15L12 8L5 1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M16 8.5C16 8.75781 15.914 8.92969 15.7419 9.10156L10.8388 14L9.6345 12.7969L13.0753 9.35938L0 9.35938L0 7.64063L13.0753 7.64063L9.6345 4.20313L10.8388 3L15.7419 7.89844C15.914 8.07031 16 8.24219 16 8.5Z" fill="currentColor"/>
+      <!-- <path d="M5 15L12 8L5 1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> -->
     </g>
     <g id="nav-arrow--left">
       <path d="M0.499992 7.5C0.499992 7.75781 0.583325 7.92969 0.749992 8.10156L5.49999 13L6.66666 11.7969L3.33332 8.35938L16.0002 8.35938V6.64063L3.33332 6.64063L6.66666 3.20313L5.49999 2L0.749992 6.89844C0.583325 7.07031 0.499992 7.24219 0.499992 7.5Z" fill="currentColor"/>

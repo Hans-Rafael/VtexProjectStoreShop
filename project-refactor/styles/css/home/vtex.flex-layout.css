@@ -1,3 +1,18 @@
+.flexRow--Slider__cointeiner {
+  width: 100%;
+  height: 340px;
+  margin-bottom: 150px;
+  margin-top: 24px;
+  /* gap: 24px;
+  padding: 20px;
+   */
+}
+.flexCol--full__card {
+  border-radius: 12px;
+  width: 324px;
+  background-color: white;
+}
+/********************/
 .flexRowContent--row__one--images {
   background-color: #f0f0f2;
 }
@@ -19,9 +34,9 @@
   justify-content: space-between;
   border-radius: 12px;
   /* width: 100%; */
-  height:324px;
+  height: 324px;
   width: 336px;
-  height: auto; /* 100%; */ 
+  height: auto; /* 100%; */
   margin: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -40,7 +55,6 @@
   align-items: center;
   justify-content: center;
 }
-
 
 /***mobile**/
 .flexRowContent--row__one_mobile--text {

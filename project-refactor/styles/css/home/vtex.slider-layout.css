@@ -1,6 +1,14 @@
-.paginationDot--isActive {
-  background-color: green;
+.sliderLayoutContainer--slider {
+  padding: 20px;
+  margin-bottom: 25px;
+ /*  display: flex;
+  justify-content: space-between;
+  width: 1092px;
+  height: 324px;  */
+  /* overflow: hidden;*/
 }
+/*****************/
+
 .slide--slider-home__infoCards {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -8,8 +16,8 @@
   margin-right: 20px;
 }
 .sliderTrackContainer--home-slider {
-  width: 1092px; 
-  height: 640px; 
+  width: 1092px;
+  height: 640px;
   margin: 0 auto;
   top: 663px;
   left: 94px;
