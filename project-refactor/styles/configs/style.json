@@ -413,6 +413,12 @@
 				"fontSize": "1rem",
 				"textTransform": "initial",
 				"letterSpacing": "0"
+			},
+			"Lexend-400": {
+				"fontFamily": "Lexend",
+				"fontWeight": "400",
+				"fontSize": "14px",
+				"letterSpacing": "0"
 			}
 		}
 	},

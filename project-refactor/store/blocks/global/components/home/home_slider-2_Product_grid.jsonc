@@ -1,3 +1,258 @@
 {
-    "flex-layout.row#slider2--Product__grid":{}
+    "flex-layout.row#slider2--Product__grid": {
+        "title": "Slider product grid",
+        "props": {
+            "blockClass": [
+                "Slider2__container"
+            ],
+            "height": 320
+        },
+        "children": [
+            "slider-layout#Slider--full__images"
+        ]
+    },
+    "slider-layout#Slider--full__images": {
+        "title": "Slider all images",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always",
+            "height": 340,
+            "width": 212,
+            "blockClass": [
+                "slider--cards_img"
+            ],
+            "label": "Cards"
+            //,"centerModeSlidesGap": 12
+        },
+        "children": [
+            "flex-layout.col#product--card",
+            "flex-layout.col#product--card",
+            "flex-layout.col#product--card",
+            "flex-layout.col#product--card",
+            "flex-layout.col#product--card",
+            "flex-layout.col#product--card",
+            "flex-layout.col#product--card"
+        ]
+    },
+    "flex-layout.col#product--card": {
+        "title": "Product Card",
+        "props": {
+            "blockClass": [
+                "product--card"
+            ]
+        },
+        "children": [
+            "flex-layout.row#row__one",
+            "flex-layout.row#row__two",
+            "flex-layout.row#row__three",
+            "flex-layout.row#row__four",
+            "flex-layout.row#row__five",
+            "flex-layout.row#row__six",
+            "flex-layout.row#row__seven"
+        ]
+    },
+    "flex-layout.row#row__one": {
+        "title": "row on descout and hard",
+        "props": {
+            "height": 32,
+            "blockClass": [
+                "row__one" //Creo aun no me funciona bien flex aqui revisar
+            ]
+        },
+        "children": [
+            "image#descount",
+            "image#like"
+        ]
+    },
+    "image#descount": {
+        "title": "descount image",
+        "props": {
+            "alt": "descount",
+            "src": "assets/img/slider2_home_product-card/descount.png",
+            "width": 84,
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
+        }
+    },
+    "image#like": {
+        "title": "image for like",
+        "props": {
+            "width": 44,
+            "alt": "like image",
+            "src": "assets/img/slider2_home_product-card/Tag-likes.png"
+        }
+    },
+    "flex-layout.row#row__two": {
+        "title": "product image for sale",
+        "props": {
+            "blockClass": [
+                "row--two"
+            ]
+        },
+        "children": [
+            "image#product__ofert"
+        ]
+    },
+    "image#product__ofert": {
+        "title": "Image of the Product",
+        "props": {
+            "src": "assets/img/slider2_home_product-card/desktop-product.png",
+            "alt": "product image",
+            "height": "100%",
+            "sizes": "300px"
+        }
+    },
+    "flex-layout.row#row__three": {
+        "title": "Description",
+        "props": {
+            "height": 212,
+            "blockClass": [
+                "Description--container"
+            ]
+        },
+        "children": [
+            "rich-text#description--product"
+        ]
+    },
+    "rich-text#description--product": {
+        "title": "description text",
+        "props": {
+            "font": "Lexend",
+            "text": "Descripción del producto en hasta tres lineas de texto explicativo",
+            "blockClass": [
+                "Descrition--text"
+            ]
+        }
+    },
+    "flex-layout.row#row__four": {
+        "title": "Old price container",
+        "props": {
+            "width": 68,
+            "height": 17,
+            "horizontalAlign": "left",
+            "blockClass": [
+                "old__price--container"
+            ]
+        },
+        "children": [
+            "rich-text#old__price"
+        ]
+    },
+    "rich-text#old__price": {
+        "title": "text of old price",
+        "props": {
+            "text": "$836.900",
+            "textAlignment": "LEFT",
+            "blockClass": [
+                "old__price--text"
+            ]
+        }
+    },
+    "flex-layout.row#row__five": {
+        "title": "Actual price container",
+        "props": {
+            "horizontalAlign": "left",
+            "width": 122,
+            "height": 23,
+            "blockClass": [
+                "Actual__price--container"
+            ]
+        },
+        "children": [
+            "rich-text#actual__price"
+        ]
+    },
+    "rich-text#actual__price": {
+        "title": "Real Price",
+        "props": {
+            "text": "$ 636.900",
+            "blockClass": [
+                "actual__price--text"
+            ]
+        }
+    },
+    "flex-layout.row#row__six": {
+        "title": "text for delivery information",
+        "props": {
+            "horizontalAlign": "left",
+            "width": 17,
+            "heigh": 94,
+            "blockClass": [
+                "row__six--container"
+            ]
+        },
+        "children": [
+            "rich-text#delivery__information",
+            "image#flash--icon"
+        ]
+    },
+    "rich-text#delivery__information": {
+        "title": "Envío gratis ",
+        "props": {
+            "text": "Envío gratis",
+            "textAlignment": "LEFT",
+            "font": "Lexend",
+            "height": 1,
+            "blockClass": [
+                "delivery--text"
+            ]
+        }
+    },
+    "image#flash--icon": {
+        "title": " the flash icon",
+        "props": {
+            "alt": "flash icon",
+            "src": "assets/img/slider2_home_product-card/flash-delivery.png",
+            "width": 9,
+            "height": 15,
+            "blockClass": [
+                "flash__icon"
+            ]
+        }
+    },
+    "flex-layout.row#row__seven": {
+        "title": "button comprar",
+        "props": {
+            "blockClass": [
+                "button_buy--container"
+            ]
+        },
+        "children": [
+            "image#buy__button"
+            /*  "buy-button#product" */
+            //"image#trolly",
+            //"rich-text#buy__button"
+        ]
+    },
+    /* "rich-text#buy__button": {
+        "title": "link from buy button",
+        "props": {
+            "text": "[Añadir al carrito](https:)",
+            "background-color": "red"
+        }
+    } */
+    /* "buy-button#product": {
+        "props": {
+            "isOneClickBuy": true,
+            "showTooltipOnSkuNotSelected": false
+        }
+    } */
+    "image#buy__button": {
+        "title": "Buy button",
+        "props": {
+            "alt": "Buy button",
+            "src": "assets/img/slider2_home_product-card/Button-buy-product.png",
+            "link": {
+                "url": "https://"
+            }
+        }
+    }
 }

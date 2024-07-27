@@ -15,10 +15,10 @@
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 3,
-        "phone": 1.5
+        "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "always",
+      "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "desktopOnly",
       "height": 340,
       "blockClass": [
@@ -38,7 +38,6 @@
     "title": " The full infoCard ",
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "center",
       "blockClass": [
         "full__card"
       ]
@@ -139,7 +138,11 @@
     "props": {
       "blockClass": [
         "card--button"
-      ]
+      ],
+      "link": {
+        "url": "https://",
+        "noFollow": false
+      }
     },
     "children": [
       "image#button"
