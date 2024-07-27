@@ -8,11 +8,11 @@
       "modal-trigger#home__text__subtitle",
       "flex-layout.row#slider1__infoCards",
       "modal-trigger#home__text__subtitle",
-      "list-context.image-list#slider--home__Product__grid",
+      "list-context.image-list#slider--home__Product__grid", //borrar
       "modal-trigger#home__text__subtitle",
-      "flex-layout.row#slider1__infoCards", 
+      "flex-layout.row#slider1__infoCards",
       "modal-trigger#home__text__subtitle",
-      "list-context.image-list#slider--home__Product__grid"
+      "list-context.image-list#slider--home__Product__grid" //borrar
     ]
   }
 }

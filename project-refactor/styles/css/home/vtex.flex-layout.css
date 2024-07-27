@@ -12,6 +12,12 @@
   width: 324px;
   background-color: white;
 }
+
+.flexRow--card--button {
+  display: flex;
+  justify-content: center;
+}
+
 /********************/
 .flexRowContent--row__one--images {
   background-color: #f0f0f2;

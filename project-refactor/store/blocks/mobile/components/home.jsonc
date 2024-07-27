@@ -3,7 +3,7 @@
         "title": "Mobile row for Hero",
         "children": [
             "flex-layout.col#mobile__img_txt--home",
-             "flex-layout.col#mobile__watch--home"
+            "flex-layout.col#mobile__watch--home"
         ],
         "props": {
             "blockClass": [
@@ -18,7 +18,7 @@
         "children": [
             "image#watch_hero_mobile",
             "image#button_hero_honey"
-        ], 
+        ],
         "props": {
             "blockClass": [
                 "col_center__mobile-imgs"

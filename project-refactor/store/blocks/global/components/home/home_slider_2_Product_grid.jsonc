@@ -1,6 +1,6 @@
 {
   "list-context.image-list#slider--home__Product__grid": {
-    "title":"slider home Products grid desktop",
+    "title": "slider home Products grid desktop",
     "children": [
       "slider-layout#demo2-images"
     ],

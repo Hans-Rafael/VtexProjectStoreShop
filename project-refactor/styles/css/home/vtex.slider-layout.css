@@ -1,12 +1,13 @@
 .sliderLayoutContainer--slider {
   padding: 20px;
   margin-bottom: 25px;
- /*  display: flex;
+  /*  display: flex;
   justify-content: space-between;
   width: 1092px;
   height: 324px;  */
   /* overflow: hidden;*/
 }
+
 /*****************/
 
 .slide--slider-home__infoCards {
@@ -25,5 +26,5 @@
   opacity: 1;
 }
 .home-slider .vtex-slider-layout__pagination--dot {
-  display: block; /* Asegura que los puntos siempre se muestren */
+  display: block;
 }

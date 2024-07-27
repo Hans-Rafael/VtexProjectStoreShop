@@ -1,7 +1,7 @@
 {
     "responsive-layout.mobile#home__secction--1": {
         "title": "home hero section one mobile",
-        "children":[
+        "children": [
             "flex-layout.row#mobile__home__secction--1"
         ]
     }
