@@ -415,7 +415,7 @@
 				"letterSpacing": "0"
 			},
 			"Lexend-400": {
-				"fontFamily": "Lexend",
+				"fontFamily": "Lexend, roboto, arial, sans-serif",
 				"fontWeight": "400",
 				"fontSize": "14px",
 				"letterSpacing": "0"
