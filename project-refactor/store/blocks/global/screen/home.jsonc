@@ -5,13 +5,14 @@
       /*"responsive-layout.phone#home__secction--1",
       "responsive-layout.tablet#home__secction--1" */
       "responsive-layout.mobile#home__secction--1",
-      "modal-trigger#home__text__subtitle",
+     // "modal-trigger#home__text__subtitle",
+     "rich-text#home__subtitle--text",
       "flex-layout.row#slider1__infoCards",
-      "modal-trigger#home__text__subtitle",
+      "rich-text#home__subtitle--text",
       "flex-layout.row#slider2--Product__grid", //refactor
-      "modal-trigger#home__text__subtitle",
+      "rich-text#home__subtitle--text",
       "flex-layout.row#slider1__infoCards",
-      "modal-trigger#home__text__subtitle",
+      "rich-text#home__subtitle--text",
       "flex-layout.row#slider2--Product__grid"
     ]
   }

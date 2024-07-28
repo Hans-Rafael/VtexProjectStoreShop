@@ -1,0 +1,9 @@
+{
+    "rich-text#home__subtitle--text": {
+        "title": "subtitle used at home",
+        "props": {
+            "text": "An amazing product",
+            "blockClass":["subtitle--text"]
+        }
+    }
+}
