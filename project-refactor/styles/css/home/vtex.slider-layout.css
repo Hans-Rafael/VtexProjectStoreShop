@@ -29,4 +29,5 @@
 }
 .paginationDot--isActive {
   background-color: black;
+  margin-bottom: -60px;
 }

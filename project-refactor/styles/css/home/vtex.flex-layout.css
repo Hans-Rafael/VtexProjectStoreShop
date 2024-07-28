@@ -18,7 +18,7 @@
   justify-content: center;
 }
 .flexCol--product--card {
-  height: 340px;
+  height: 375px;
   width: 212px;
   gap: 24px;
   z-index: 1;
@@ -26,33 +26,38 @@
 
 .flexRow--row__one {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexRowContent--row__one {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flexRow--Description--container {
   position: relative;
   z-index: 2;
-  margin-top: -150px; /*********************************negativo***********/
+  margin-top: -120px; /*********************************negativo***********/
   height: 212px;
 }
 .flexRow--old__price--container {
-  margin-top: -200px;
+  margin-top: -165px;
 }
 .flexRow--Actual__price--container {
-  margin-top: -200px;
+  margin-top: -25px;
 }
 .flexRow--row__six--container {
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  margin-top: -190px;
   display: flex;
+  /* justify-content: flex-start; */
+  margin-top: -35px;
   align-items: center;
+  align-items: flex-end;
   justify-content: flex-start;
   width: 100%;
   height: auto;
 }
 .flexRow--button_buy--container {
-  margin-top: -180px;
+  margin-top: -10px;
 }
 /********************/
 .flexRowContent--row__one--images {

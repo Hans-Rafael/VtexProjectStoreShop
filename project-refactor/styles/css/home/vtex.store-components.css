@@ -26,6 +26,8 @@
   padding: 7.59px;
 }
 .imageElement--flash__icon{
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  
 }
