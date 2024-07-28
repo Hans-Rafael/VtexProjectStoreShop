@@ -14,12 +14,12 @@
     "props": {
       "itemsPerPage": {
         "desktop": 3,
-        "tablet": 3,
+        "tablet": 1,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "showPaginationDots": "desktopOnly",
+      "showPaginationDots": "always",
       "height": 340,
       "blockClass": [
         "slider"
