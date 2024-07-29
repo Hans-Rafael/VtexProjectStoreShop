@@ -23,8 +23,8 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true */
-            "marginBottom": "1",
-            "marginTop": "3"
+            "marginBottom": 1,
+            "marginTop": 3
         },
         "children": [
             "flex-layout.col#one__food--home",
@@ -51,29 +51,21 @@
         ],
         "props": {}
     },
-    /* "link-button#link__food--home": {
-        "title": "Link Button Food",
-        "props": {
-            "href": "/food",
-            "text": "Food",
-            "variant": "primary",
-            "size": "regular"
-        },
-        "children": [
-            "image#link__food"
-        ]
-    }, */
     "image#link__food": {
         "title": " Image link food",
         "props": {
             "src": "assets/img/nav_bar/fastfood.png",
-            "alt": "Food"
+            "alt": "Food",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+              }
         }
     },
     "rich-text#column__one-food-text": {
         "title": " text for food link",
         "props": {
-            "text": "Food"
+            "text": "[Food](https)"
         }
     },
     /*  ----------------**/
