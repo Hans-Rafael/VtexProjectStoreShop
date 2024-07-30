@@ -1,0 +1,86 @@
+{
+    "flex-layout.row#home__secction--1": {
+        "title": "DESKTOP row with text",
+        "children": [
+            "flex-layout.col#desktop__col1__watch--home",
+            "flex-layout.col#desktop__col2__img_txt--home",
+            "flex-layout.col#desktop__col3__watch_two--home"
+        ],
+        "props": {
+            "blockClass":"row__one--images"
+        }
+    },
+    "flex-layout.col#desktop__col1__watch--home": {
+        "title": "Desktop hero image col one home",
+        "children": [
+            "image#col1-watch"
+        ],
+        "props": {
+            "width": "34%"
+        }
+    },
+    "flex-layout.col#desktop__col2__img_txt--home": {
+        "title": "Desktop hero image col two home",
+        "children": [
+            "image#text_hero",
+            "image#button_hero_home"
+        ],
+        "props": {
+            "width": "33%",
+            "blockClass": [
+                "col_center-text-img",
+                "row__one--text"
+            ],
+            "marginBottom": "8"
+        }
+    },
+    "flex-layout.col#desktop__col3__watch_two--home": {
+        "title": "Desktop hero image col three home",
+        "children": [
+            "image#col3-watch2"
+        ],
+        "props": {
+            "width": "34%"
+        }
+    },
+    "image#col1-watch": {
+        "title": "Image_one_watch_hero",
+        "props": {
+            "src": "assets/img/watch.png",
+            "alt": "watch upside down"
+        }
+    },
+    "image#col3-watch2": {
+        "title": "Image watch upside down",
+        "props": {
+            "src": "assets/img/watch_upside_down.png",
+            "alt": "watch upside down"
+        }
+    },
+     "image#text_hero": {
+        "title": "Text_image hero desktop home",
+        "props": {
+            "src": "assets/img/Texts.png"
+        }
+    },
+    "image#button_hero_home": {
+        "title": "butto_hero img ",
+        "props": {
+            "src": "assets/img/Button.png",
+            "blockClass":"desktop__buttonHero__home--image",
+            "link": {
+                "url": "https://"
+            }
+        }
+    }
+    /*
+    "rich-text#section--1": {
+        "title": "Text Favorite at desktop",
+        "props": {
+            "text": "favorites on DESKTOP",
+            "font": "t-heading-2",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    } */
+}

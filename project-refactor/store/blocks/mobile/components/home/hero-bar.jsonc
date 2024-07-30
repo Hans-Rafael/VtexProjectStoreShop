@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#mobile__home__secction--1": {
+        "title": "Mobile row for Hero",
+        "children": [
+            "flex-layout.col#mobile__img_txt--home",
+            "flex-layout.col#mobile__watch--home"
+        ],
+        "props": {
+            "blockClass": [
+                "row__one_mobile--text"
+            ]
+            
+        }
+    },
+    "flex-layout.col#mobile__watch--home": {
+        "title": "mobile hero image col one home",
+        "children": [
+            "image#watch_hero_mobile",
+            "image#button_hero_honey"
+        ],
+        "props": {
+            "blockClass": [
+                "col_center__mobile-imgs"
+            ]
+        }
+    },
+    "flex-layout.col#mobile__img_txt--home": {
+        "title": "mobile hero image col two home",
+        "children": [
+            "image#text_hero_mobile"
+        ],
+        "props": {
+            "width": "50%",
+            "blockClass": [
+                "col_center__img__txt-imgs"
+            ]
+        }
+    },
+    "image#watch_hero_mobile": {
+        "title": "Image_one_watch_hero",
+        "props": {
+            "src": "assets/img/watch.png"
+        }
+    },
+    "image#text_hero_mobile": {
+        "title": "Text_image hero mobile__ home",
+        "props": {
+            "src": "assets/img/Texts.png"
+        }
+    },
+    "image#button_hero_honey": {
+        "title": "butto_hero mobile img ",
+        "props": {
+            "src": "assets/img/button_hero/Honey _ Template/Button_flecha.png"
+        }
+    }
+}
