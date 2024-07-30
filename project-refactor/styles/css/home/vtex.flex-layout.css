@@ -59,6 +59,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .flexRowContent--row__one {
   display: flex;
@@ -87,8 +88,12 @@
   width: 100%;
   height: auto;
 }
+.flexRowContent--row__six--container {
+  display:flex;
+  align-items: center;
+}
 .flexRow--button_buy--container {
-  margin-top: -10px;
+  margin-top: 10px;
 }
 /********************/
 .flexRowContent--row__one--images {
