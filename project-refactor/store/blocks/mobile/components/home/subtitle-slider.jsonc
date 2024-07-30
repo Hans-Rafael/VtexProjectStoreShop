@@ -1,6 +1,8 @@
 {
     "flex-layout.row#mobile--subtitle": {
-        "props": {},
+        "props": {
+            "blockClass": "mobile__subtitle--container"
+        },
         "children": [
             "rich-text#responsive__mobile__home__subtitle--text"
         ]
