@@ -21,7 +21,11 @@
     "props": {
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "optionsTitle": "login",
+      "iconLabel":"login",
+      "showIconProfile": true,
+      "hideIconLabel": false
     }
   },
   "product-summary.shelf": {
