@@ -9,22 +9,24 @@
             "title": "Logo",
             "href": "/",
             "url": "assets/img/nav_bar/Icon_Black.png",
-            "width": "80"
+            "width": 32,
+            "height": 16
         }
     },
     "drawer": {
+        "props":{
+            "width":24,
+            "height":24
+        },
         "children": []
     },
     "flex-layout.row#header__row__bottom": {
         "title": "Elements second row header ",
         "props": {
-            /* "horizontalAlign": "center",
-            "verticalAlign": "center",
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true */
+            "blockClass": "Elements__row2--header",
             "marginBottom": 1,
             "marginTop": 3
+            
         },
         "children": [
             "flex-layout.col#one__food--home",
@@ -45,11 +47,12 @@
     "flex-layout.col#one__food--home": {
         "title": "Element one Food",
         "children": [
-            // "link-button#link__food--home"
             "image#link__food",
             "rich-text#column__one-food-text"
         ],
-        "props": {}
+        "props": {
+            "blockClass":["link--elements--row2__header"]
+        }
     },
     "image#link__food": {
         "title": " Image link food",
@@ -59,245 +62,302 @@
             "link": {
                 "url": "https://",
                 "noFollow": false
-              }
+            }
         }
     },
     "rich-text#column__one-food-text": {
         "title": " text for food link",
         "props": {
-            "text": "[Food](https)"
+            "text": "[Food](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
+            
         }
     },
     /*  ----------------**/
     "flex-layout.col#two__fitness--home": {
         "title": "Element one fitness",
         "children": [
-            "image#link__fitness"
-            //,"rich-text#column__one-fitness-text"
+            "image#link__fitness",
+            "rich-text#column__one-fitness-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__fitness": {
         "title": " Image fitness link",
         "props": {
-            "src": "assets/img/nav_bar/Fitness.png",
-            "alt": "Fitness"
+            "src": "assets/img/nav_bar/header/fitness_center.png",
+            "alt": "Fitness",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-fitness-text": {
         "title": " Text for fitness link",
         "props": {
-            "text": "Fitness"
+            "text": "[Fitness](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#three__artico--home": {
         "title": "Element one artico",
         "children": [
-            "image#link__artico"
-            //,"rich-text#column__one-fitness-text"
+            "image#link__artico",
+            "rich-text#column__one-artico-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__artico": {
         "title": " Image artico link",
         "props": {
-            "src": "assets/img/nav_bar/Artico.png",
-            "alt": "artico"
+            "src": "assets/img/nav_bar/header/ac_unit.png",
+            "alt": "artico",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-artico-text": {
         "title": " Text for artico link",
         "props": {
-            "text": "En el Ártico"
+            "text": "[En el Ártico](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#four__poolday--home": {
         "title": "Element one poolday",
         "children": [
-            "image#link__poolday"
-            //,"rich-text#column__one-poolday-text"
+            "image#link__poolday",
+            "rich-text#column__one-poolday-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__poolday": {
         "title": " Image poolday link",
         "props": {
-            "src": "assets/img/nav_bar/Poolday.png",
-            "alt": "poolday"
+            "src": "assets/img/nav_bar/header/deck.png",
+            "alt": "poolday",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-poolday-text": {
         "title": " Text for Poolday link",
         "props": {
-            "text": "Poolday"
+            "text": "[Poolday](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#five__hotels--home": {
         "title": "Element one hotels",
         "children": [
-            "image#link__hotels"
-            //,"rich-text#column__one-hotels-text"
+            "image#link__hotels",
+            "rich-text#column__one-hotels-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__hotels": {
         "title": " Image hotels link",
         "props": {
-            "src": "assets/img/nav_bar/Hotels.png",
-            "alt": "hotels"
+            "src": "assets/img/nav_bar/header/hotel.png",
+            "alt": "hotels",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-hotels-text": {
         "title": " Text for hotels link",
         "props": {
-            "text": "Hotels"
+            "text": "[Hotels](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#six__casas--home": {
         "title": "Element one casas",
         "children": [
-            "image#link__casas"
-            //,"rich-text#column__one-casas-text"
+            "image#link__casas",
+            "rich-text#column__one-casas-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__casas": {
         "title": " Image casas link",
         "props": {
-            "src": "assets/img/nav_bar/Casas.png",
-            "alt": "casas"
+            "src": "assets/img/nav_bar/header/house.png",
+            "alt": "casas",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-casas-text": {
         "title": " Text for casas link",
         "props": {
-            "text": "Casas"
+            "text": "[Casas](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#seven__naturales--home": {
         "title": "Element one naturales",
         "children": [
-            "image#link__naturales"
-            //,"rich-text#column__one-naturales-text"
+            "image#link__naturales",
+            "rich-text#column__one-naturales-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__naturales": {
         "title": " Image naturales link",
         "props": {
-            "src": "assets/img/nav_bar/Naturales.png",
-            "alt": "Naturales"
+            "src": "assets/img/nav_bar/header/spa.png",
+            "alt": "Naturales",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-naturales-text": {
         "title": " Text for fitness link",
         "props": {
-            "text": "Naturales"
+            "text": "[Naturales](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#eight__closet--home": {
         "title": "Element one closet",
         "children": [
-            "image#link__closet"
-            //,"rich-text#column__one-closet-text"
+            "image#link__closet",
+            "rich-text#column__one-closet-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__closet": {
         "title": " Image closet link",
         "props": {
-            "src": "assets/img/nav_bar/Closet.png",
-            "alt": "closet"
+            "src": "assets/img/nav_bar/header/checkroom.png",
+            "alt": "closet",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-closet-text": {
         "title": " Text for closet link",
         "props": {
-            "text": "Closet"
+            "text": "[Closet](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#nine__playas--home": {
         "title": "Element one playas",
         "children": [
-            "image#link__playas"
-            //,"rich-text#column__one-playas-text"
+            "image#link__playas",
+            "rich-text#column__one-playas-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__playas": {
         "title": " Image playas link",
         "props": {
-            "src": "assets/img/nav_bar/Playas.png",
-            "alt": "playas"
+            "src": "assets/img/nav_bar/header/beach_access.png",
+            "alt": "playas",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-playas-text": {
         "title": " Text for playas link",
         "props": {
-            "text": "Playas"
+            "text": "[Playas](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#ten__alpinismo--home": {
         "title": "Element one alpinismo",
         "children": [
-            "image#link__alpinismo"
-            //,"rich-text#column__one-alpinismo-text"
+            "image#link__alpinismo",
+            "rich-text#column__one-alpinismo-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__alpinismo": {
         "title": " Image alpinismo link",
         "props": {
-            "src": "assets/img/nav_bar/Alpinismo.png",
-            "alt": "alpinismo"
+            "src": "assets/img/nav_bar/header/elderly.png",
+            "alt": "alpinismo",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-alpinismo-text": {
         "title": " Text for alpinismo link",
         "props": {
-            "text": "Alpinismo"
+            "text": "[Alpinismo](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#eleven__delivery--home": {
         "title": "Element one delivery",
         "children": [
-            "image#link__delivery"
-            //,"rich-text#column__one-delivery-text"
+            "image#link__delivery",
+            "rich-text#column__one-delivery-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__delivery": {
         "title": " Image delivery link",
         "props": {
-            "src": "assets/img/nav_bar/Delivery.png",
-            "alt": "delivery"
+            "src": "assets/img/nav_bar/header/moped.png",
+            "alt": "delivery",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-delivery-text": {
         "title": " Text for delivery link",
         "props": {
-            "text": "Delivery"
+            "text": "[Delivery](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     },
     "flex-layout.col#twelve_cervezas--home": {
         "title": "Element one cervezas",
         "children": [
-            "image#link__cervezas"
-            //,"rich-text#column__one-cervezas-text"
+            "image#link__cervezas",
+            "rich-text#column__one-cervezas-text"
         ],
-        "props": {}
+        "props": {"blockClass":["link--elements--row2__header"]}
     },
     "image#link__cervezas": {
         "title": " Image cervezas link",
         "props": {
-            "src": "assets/img/nav_bar/Cervezas.png",
-            "alt": "cervezas"
+            "src": "assets/img/nav_bar/header/sports_bar.png",
+            "alt": "cervezas",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "rich-text#column__one-cervezas-text": {
         "title": " Text for cervezas link",
         "props": {
-            "text": "Cervezas"
+            "text": "[Cervezas](https://)",
+            "blockClass":["text--format__row2","link__full--text"]
         }
     }
 }

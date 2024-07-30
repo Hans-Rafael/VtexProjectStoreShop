@@ -1,3 +1,16 @@
+.container--subtitle--text {
+  display: flex;
+  background-color: #f5f4f6;
+}
+.wrapper--mobile__subtitle--text {
+  font-family: "lexend";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.8px;
+  margin-left: 30px; 
+  text-align: left;
+  /* color: #1d2734; */
+}
 .wrapper--text--title {
   font-weight: bold;
   color: #1d2734;
@@ -16,6 +29,7 @@
   font-weight: 400;
   font-size: 14px;
   text-align: left;
+  text-decoration: none !important;
 }
 .wrapper--old__price--text {
   color: #1d2734;
@@ -23,23 +37,49 @@
   font-size: 14px;
   font-weight: 400;
 }
-.wrapper--actual__price--text{
+.wrapper--actual__price--text {
   color: #1d2734;
   font-weight: 600;
   size: 24px;
 }
-.wrapper--delivery--text{
-  color:#FA2080;
+.wrapper--delivery--text {
+  color: #fa2080;
   font-weight: 400;
   font-size: 14px;
-  font-family: 'Lexend';
+  font-family: "Lexend";
   margin-right: 5px;
   line-height: 1;
 }
-.wrapper--subtitle--text{
+.wrapper--subtitle--text {
   font-family: "lexend";
   font-weight: 500;
   font-size: 16px;
-  line-height:16.8px ;
-  margin-left: 160px;/* 13%; */
+  line-height: 16.8px;
+  margin-left: 50px; /* 13%; */
+  text-align: left;
+}
+.wrapper--text--format__row2 {
+  font-family: "lexend";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1d2734;
+}
+.wrapper--link__full--text {
+  font-family: "lexend";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1d2734;
+}
+.link--link__full--text {
+  color: #1d2734;
+  text-decoration: none;
+}
+.link--link--text {
+  color: #1d2734;
+  text-decoration: none;
+}
+.paragraph--Descrition--text {
+  text-decoration: none !important;
 }

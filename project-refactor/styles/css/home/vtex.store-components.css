@@ -10,16 +10,13 @@
   width: 324px;
   height: 43px;
 }
-.container {
-  background-color: #f6f6f6;
-}
 .wrapper--subtitle--text {
   color: #1d2734;
   font-size: 16px;
   font-weight: 500;
   line-height: 16.8px;
   text-align: left;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 .imageElementLink--buy--button{
   gap: 7.5px;

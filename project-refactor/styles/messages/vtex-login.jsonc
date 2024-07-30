@@ -1,5 +1,6 @@
 {
     "store/login": {
-        "signInButton": "Login"
+        "signInButton": "Login",
+        "background-color":"red"
     }
 }

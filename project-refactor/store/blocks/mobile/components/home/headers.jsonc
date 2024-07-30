@@ -19,5 +19,10 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  }
+  },
+  "login": {"props": {
+    "optionsTitle": "login",
+    "hideIconLabel": false,
+    "iconLabel": "login"
+  }}
 }

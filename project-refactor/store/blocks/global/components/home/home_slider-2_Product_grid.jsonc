@@ -82,7 +82,7 @@
             },
             "preventHorizontalStretch": true,
             "blockClass": [
-                "row__one" //Creo aun no me funciona bien flex aqui revisar
+                "row__one"
             ]
         },
         "children": [
@@ -107,10 +107,7 @@
         "props": {
             "width": 44,
             "alt": "like image",
-            "src": "assets/img/slider2_home_product-card/Tag-likes.png",
-            "link": {
-                "url": "https://"
-            }
+            "src": "assets/img/slider2_home_product-card/Tag-likes.png"
         }
     },
     "flex-layout.row#row__two": {
@@ -130,10 +127,7 @@
             "src": "assets/img/slider2_home_product-card/desktop-product.png",
             "alt": "product image",
             "height": "100%",
-            "sizes": "300px",
-            "link": {
-                "url": "https://"
-            }
+            "sizes": "300px"
         }
     },
     "flex-layout.row#row__three": {
@@ -208,7 +202,7 @@
     "flex-layout.row#row__six": {
         "title": "text for delivery information",
         "props": {
-            "horizontalAlign":"left",
+            "horizontalAlign": "left",
             "preventHorizontalStretch": true,
             "width": 17,
             "heigh": 94,
@@ -254,7 +248,6 @@
         },
         "children": [
             "image#buy__button"
-            //  "buy-button#produc     //"image#tro     //"rich-text#buy__button"
         ]
     },
     /* "rich-text#buy__button": {
@@ -275,10 +268,7 @@
         "title": "Buy button",
         "props": {
             "alt": "Buy button",
-            "src": "assets/img/slider2_home_product-card/Button-buy-product.png",
-            "link": {
-                "url": "https://"
-            }
+            "src": "assets/img/slider2_home_product-card/Button-buy-product.png"
         }
     }
 }

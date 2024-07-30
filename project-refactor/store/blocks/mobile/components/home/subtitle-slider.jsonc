@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#mobile--subtitle": {
+        "props": {},
+        "children": [
+            "rich-text#responsive__mobile__home__subtitle--text"
+        ]
+    },
+    "rich-text#responsive__mobile__home__subtitle--text": {
+        "title": "subtitle used at home mobile",
+        "props": {
+            "text": "An amazing product",
+            "blockClass": [
+                "mobile__subtitle--text"
+            ]
+        }
+    }
+}

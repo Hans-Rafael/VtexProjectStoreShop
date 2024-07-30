@@ -5,9 +5,18 @@
             "blockClass": "sticky-header"
         },
         "children": [
+            "flex-layout.row#spacer",
             "flex-layout.row#desktop",
             "flex-layout.row#header__row__bottom" //--> global
         ]
+    },
+    "flex-layout.row#spacer":{
+        "title": "spacer at header",
+        "props": {
+            "height":56,
+            "fullWidth": true,
+            "blockClass": "header__spacer"
+        }
     },
     "flex-layout.row#desktop": {
         "title": "Elements first row header ",
@@ -17,11 +26,11 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
-            "blockClass": ""
+            "blockClass": "top__header"
         },
         "children": [
             "drawer", //->global
-            "flex-layout.col#logo-desktop", //>global
+            "logo", //>global
             "search-bar",
             "flex-layout.col#spacer", //>Global
             //"link#tendencias",
@@ -35,18 +44,12 @@
             "login" //>global
         ]
     },
-    "flex-layout.col#logo-desktop": {
-        "props": {
-            "verticalAlign": "middle"
-        },
-        "children": [
-            "logo"
-        ]
-    },
     "flex-layout.col#tendencias-home": {
         "title": "link to tendencias",
         "props": {
-            "blockClass": "link__text"
+            "font": "Lexend",
+            "blockClass": "link__text",
+            "height": 15
         },
         "children": [
             "rich-text#tendencias"
@@ -55,15 +58,22 @@
     "rich-text#tendencias": {
         "title": "Text from link tendencias",
         "props": {
-            "text": "**Tendencias** **de** **ITGlobers** ",
-            "font": "t-caption-5"
+            "text": "[Tendencias de ITGlobers](http://) ",
+            "font": "Lexend",
+            "weight": 400,
+            "size": 12,
+            "textAlignment": "RIGHT",
+            "blockClass": [
+                "link__full--text"
+            ]
         }
     },
     ///
     "flex-layout.col#coleccion-home": {
         "title": "link to coleccion",
         "props": {
-            "blockClass": "link__text"
+            "blockClass": "link__text",
+            "height": 15
         },
         "children": [
             "rich-text#coleccion"
@@ -72,13 +82,20 @@
     "rich-text#coleccion": {
         "title": "Text from link coleccion",
         "props": {
-            "text": " **Coleccion** **del** **mes**  ",
-            "font":"t-code"
+            "text": "[Coleccion del mes](http://)",
+            "font": "Lexend",
+            "weight": 400,
+            "size": 12,
+            "textAlignment": "RIGHT",
+            "blockClass": [
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#ofertas-home": {
         "title": "link to ofertas",
         "props": {
+            "height": 15,
             "blockClass": "link__text"
         },
         "children": [
@@ -88,12 +105,20 @@
     "rich-text#ofertas": {
         "title": "Text from link ofertas",
         "props": {
-            "text": " **Ofertas** **enero** "
+            "text": "[Ofertas enero](http://)",
+            "font": "Lexend",
+            "weight": 400,
+            "size": 12,
+            "textAlignment": "RIGHT",
+            "blockClass": [
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#cyber__monday-home": {
         "title": "link to cyber__monday",
         "props": {
+            "height": 15,
             "blockClass": "link__text"
         },
         "children": [
@@ -103,12 +128,20 @@
     "rich-text#cyber__monday": {
         "title": "Text to link cyber__monday",
         "props": {
-            "text": " **Cyber** **Monday** "
+            "text": "[Cyber Monday](http://)",
+            "font": "Lexend",
+            "weight": 400,
+            "size": 12,
+            "textAlignment": "RIGHT",
+            "blockClass": [
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#never_say-home": {
         "title": "link to never say never",
         "props": {
+            "height": 15,
             "blockClass": "link__text"
         },
         "children": [
@@ -118,7 +151,14 @@
     "rich-text#never__say": {
         "title": "Text to link never say never",
         "props": {
-            "text": " **Never** **say** **never**"
+            "text": "[Never say never](http://)",
+            "font": "Lexend",
+            "weight": 400,
+            "size": 12,
+            "textAlignment": "RIGHT",
+            "blockClass": [
+                "link__full--text"
+            ]
         }
     }
 }
