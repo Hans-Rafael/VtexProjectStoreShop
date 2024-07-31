@@ -7,6 +7,10 @@
       //"responsive-layout.tablet#home__secction--1"
       "responsive-layout.mobile#home__secction--1",
       // "modal-trigger#home__text__subtitle",
+      /****/
+      //"product-summary.shelf#card__element--shelf",
+      //"flex-layout.row#slider2--Product__home",
+      /***/
       "responsive-layout.desktop#subtilte__home--txt",
       "responsive-layout.mobile#sliders--subtitle",
       "flex-layout.row#slider1__infoCards",
@@ -19,6 +23,7 @@
       "responsive-layout.desktop#subtilte__home--txt",
       "responsive-layout.mobile#sliders--subtitle",
       "flex-layout.row#slider2--Product__grid"
+
     ]
   }
 }
