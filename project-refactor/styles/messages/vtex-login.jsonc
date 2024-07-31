@@ -1,6 +1,13 @@
 {
     "store/login": {
+        "title":"login buttom at home",
         "signInButton": "Login",
-        "background-color":"red"
+        "props":{
+            "color":"black",
+            "states":"hover",
+            "has icon":false,
+            "has text":true,
+            "blockClass":["login--buttom__home"]
+        }
     }
 }
