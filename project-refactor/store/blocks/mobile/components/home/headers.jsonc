@@ -1,8 +1,17 @@
 {
   "sticky-layout#mobile": {
     "children": [
+      "flex-layout.row#spacer--mobile",
       "flex-layout.row#mobile"
     ]
+  },
+  "flex-layout.row#spacer--mobile": {
+    "title": "spacer at mobile header",
+    "props": {
+      "height": 40,
+      "fullWidth": true,
+      "blockClass": "header__mobile__spacer"
+    }
   },
   "flex-layout.row#mobile": {
     "children": [
@@ -20,9 +29,12 @@
       "fullWidth": true
     }
   },
-  "login": {"props": {
-    "optionsTitle": "login",
-    "hideIconLabel": false,
-    "iconLabel": "login"
-  }}
+  "login": {
+    "props": {
+      "optionsTitle": "login",
+      "hideIconLabel": false,
+      "iconLabel": "login",
+      "hasGoogleOneTap": true
+    }
+  }
 }
