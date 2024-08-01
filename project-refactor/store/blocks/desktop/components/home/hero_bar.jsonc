@@ -7,7 +7,7 @@
             "flex-layout.col#desktop__col3__watch_two--home"
         ],
         "props": {
-            "blockClass":"row__one--images"
+            "blockClass": "row__one--images"
         }
     },
     "flex-layout.col#desktop__col1__watch--home": {
@@ -16,7 +16,11 @@
             "image#col1-watch"
         ],
         "props": {
-            "width": "34%"
+            "width": "34%",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "flex-layout.col#desktop__col2__img_txt--home": {
@@ -47,17 +51,26 @@
         "title": "Image_one_watch_hero",
         "props": {
             "src": "assets/img/watch.png",
-            "alt": "watch upside down"
+            "alt": "watch upside down",
+            "link": {
+                "url": "https://",
+                "noFollow": false
+            }
         }
     },
     "image#col3-watch2": {
         "title": "Image watch upside down",
         "props": {
             "src": "assets/img/watch_upside_down.png",
-            "alt": "watch upside down"
+            "alt": "watch upside down",
+            "link": {
+        "url": "https://",
+        "noFollow": false
+      }
+            
         }
     },
-     "image#text_hero": {
+    "image#text_hero": {
         "title": "Text_image hero desktop home",
         "props": {
             "src": "assets/img/Texts.png"
@@ -67,7 +80,7 @@
         "title": "butto_hero img ",
         "props": {
             "src": "assets/img/Button.png",
-            "blockClass":"desktop__buttonHero__home--image",
+            "blockClass": "desktop__buttonHero__home--image",
             "link": {
                 "url": "https://"
             }
