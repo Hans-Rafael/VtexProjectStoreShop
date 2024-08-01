@@ -65,9 +65,13 @@
       "src": "assets/img/card_slider_one_infocard/Card_element.png",
       "blockClass": [
         "card__image--card"
-      ]
+      ],
+      "link": {
+        "url": "https://",
+        "noFollow": false
+      }
     }
-  }, //
+  }, 
   "flex-layout.row#card__text": {
     "title": "Title, text and stamp",
     "props": {
@@ -100,7 +104,7 @@
       "blockClass": [
         "text--title"
       ],
-      "text": "**Heading**"
+      "text": "[**Heading**](https//)"
     }
   },
   "rich-text#description": {
@@ -110,7 +114,7 @@
       "blockClass": [
         "text--description"
       ],
-      "text": "Builder platform is made by, buildership platform is made by"
+      "text": "[Builder platform is made by, buildership platform is made by](https://)"
     }
   },
   "flex-layout.col#stamp": {
@@ -130,7 +134,11 @@
       "src": "assets/img/card_slider_one_infocard/stamp.png ",
       "blockClass": [
         "stamp__image--card"
-      ]
+      ],
+      "link": {
+        "url": "https://",
+        "noFollow": false
+      }
     }
   },
   "flex-layout.row#button": {

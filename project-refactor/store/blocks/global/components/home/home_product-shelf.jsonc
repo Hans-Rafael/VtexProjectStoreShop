@@ -1,0 +1,92 @@
+{
+    "flex-layout.row#slider__product--list": {
+        "title": "main product container",
+        "props": {
+            "blockClass": "main__container"
+        },
+        "children": [
+            "list-context.product-list#demo1"
+        ]
+    },
+    "product-summary.shelf#demo1": {
+        "title": "Products items card",
+        "children": [
+            //"stack-layout#product-summary",
+            "flex-layout.col#items__descount__likes",
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ]
+    },
+    "list-context.product-list#demo1": {
+        "title": "product list",
+        "blocks": [
+            "product-summary.shelf#demo1"
+        ],
+        "children": [
+            "slider-layout#home__slider2--products"
+        ],
+        "props": {
+            "blockClass": "context__product-list"
+        }
+    },
+    "slider-layout#home__slider2--products": {
+        "title": "define product slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 5,
+                "phone": 1
+            },
+            "blockClass": [
+                "home__slider2--products"
+            ]
+        }
+    },
+    "flex-layout.col#items__descount__likes": {
+        "title": "descount and likes",
+        "props": {
+            "blockClass": [
+                "descounts__likes--row1"
+            ]
+        },
+        "children": [
+            "rich-text#item__descount",
+            "image#item__likes"
+        ]
+    },
+    "rich-text#item__descount": {
+        "title": "product descount",
+        "props": {
+            "text": "20% OFF",
+            "blockClass": [
+                "price__off--text"
+            ]
+        }
+    },
+    "image#item__likes": {
+        "title": " image for likes",
+        "props": {
+            "src": "/arquivos/Like.png",
+            "blockClass": "likes__Product--images"
+        }
+    },
+    "product-summary-image": {
+        "title": "Product image",
+        "props": {
+            "showBadge": true,
+            "height": 220,
+            "blockClass": [
+                "custom_image__slider2"
+            ]
+        }
+    },
+    "product-summary-name": {
+        "props": {
+            "blockClass": [
+                "custom__product__namey"
+            ]
+        }
+    }
+}

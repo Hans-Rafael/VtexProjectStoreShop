@@ -8,8 +8,7 @@
       "responsive-layout.mobile#home__secction--1",
       // "modal-trigger#home__text__subtitle",
       /****/
-      //"product-summary.shelf#card__element--shelf",
-      //"flex-layout.row#slider2--Product__home",
+      "flex-layout.row#slider__product--list",
       /***/
       "responsive-layout.desktop#subtilte__home--txt",
       "responsive-layout.mobile#sliders--subtitle",
