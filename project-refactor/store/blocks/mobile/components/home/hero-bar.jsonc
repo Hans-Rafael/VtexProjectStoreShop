@@ -45,7 +45,7 @@
     "image#text_hero_mobile": {
         "title": "Text_image hero mobile__ home",
         "props": {
-            "src": "assets/img/Texts.png"
+            "src": "assets/img/Hero-Mobile-descount.png"
         }
     },
     "image#button_hero_honey": {
