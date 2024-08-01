@@ -2,8 +2,8 @@
     "flex-layout.row#mobile__home__secction--1": {
         "title": "Mobile row for Hero",
         "children": [
-            "flex-layout.col#mobile__img_txt--home",
-            "flex-layout.col#mobile__watch--home"
+            "flex-layout.col#mobile__img_txt--home"
+           // "flex-layout.col#mobile__watch--home"
         ],
         "props": {
             "blockClass": [
@@ -15,8 +15,8 @@
     "flex-layout.col#mobile__watch--home": {
         "title": "mobile hero image col one home",
         "children": [
-            "image#watch_hero_mobile",
-            "image#button_hero_honey"
+            "image#watch_hero_mobile"
+            //"image#button_hero_honey"
         ],
         "props": {
             "blockClass": [
@@ -47,11 +47,11 @@
         "props": {
             "src": "assets/img/Hero-Mobile-descount.png"
         }
-    },
-    "image#button_hero_honey": {
+    }
+    /* "image#button_hero_honey": {
         "title": "butto_hero mobile img ",
         "props": {
             "src": "assets/img/button_hero/Honey _ Template/Button_flecha.png"
         }
-    }
+    } */
 }
