@@ -1,4 +1,7 @@
-.flexcol--descounts__likes--row1 {
+.flexRow--main__container{
+  background-color: #f5f4f6;
+}
+.flexCol--descounts__likes--row1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

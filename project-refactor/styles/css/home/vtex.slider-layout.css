@@ -1,3 +1,9 @@
+.flexRowContent--main__container{
+  background-color: #f5f4f6;
+}
+.sliderTrack--home__slider2--products{
+  gap:24px;
+}
 .sliderLayoutContainer--slider {
   padding: 20px;
   margin-bottom: 25px;
@@ -10,6 +16,7 @@
   padding-right: 40px;
   padding-left: 40px;
 }
+
 .item-inline {
   display: inline-block;
 }
