@@ -1,6 +1,6 @@
 {
     "sticky-layout#desktop": {
-        "title": "header at destop size",
+        "title": "header at desktop size",
         "props": {
             "blockClass": "sticky-header"
         },

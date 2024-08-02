@@ -1,6 +1,13 @@
-.container{
-  background-color: #f5f4f6;
+.imageElement--likes__Product--images {
+  width: Hug (44px) px;
+  height: Hug (32px) px;
+  padding: 6px 12px 6px 12px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
+
 .imageElement--image-element {
   width: 324px;
   height: 187px;
@@ -21,13 +28,16 @@
   text-align: left;
   margin-left: 5px;
 }
-.imageElementLink--buy--button{
+.imageElementLink--buy--button {
   gap: 7.5px;
   padding: 7.59px;
 }
-.imageElement--flash__icon{
+.imageElement--flash__icon {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  
 }
+/* .container {
+  background-color: #f5f4f6;
+} */
+ 

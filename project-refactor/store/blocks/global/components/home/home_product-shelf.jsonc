@@ -66,6 +66,7 @@
         "title": "product descount",
         "props": {
             "text": "20% OFF",
+            "font": "t-body",
             "blockClass": [
                 "price__off--text"
             ]
@@ -75,7 +76,12 @@
         "title": " image for likes",
         "props": {
             "src": "/arquivos/Like.png",
-            "blockClass": "likes__Product--images"
+            "blockClass": "likes__Product--images",
+            "alt": "like heart",
+            "color": "black",
+            "icons": "favorite_border",
+            "icon": true,
+            "caption": false
         }
     },
     "product-summary-image": {
@@ -92,7 +98,13 @@
         "props": {
             "blockClass": [
                 "custom__product__namey"
-            ],
+            ]
+        }
+    },
+    "product-summary-buy-button": {
+        "title": "the buy button",
+        "props": {
+            "isOneClickBuy": false,
             "buyButtonText": "comprar"
         }
     }
