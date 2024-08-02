@@ -16,7 +16,7 @@
             "product-summary-image",
             "product-summary-description",
             "product-summary-price",
-            "product-summary-buy-button"
+            "add-to-cart-button"
         ]
     },
     "list-context.product-list#demo1": {
@@ -94,18 +94,12 @@
             ]
         }
     },
-    "product-summary-name": {
-        "props": {
-            "blockClass": [
-                "custom__product__namey"
-            ]
-        }
-    },
-    "product-summary-buy-button": {
-        "title": "the buy button",
-        "props": {
+    "add-to-cart-button": {
+        "title": "Buy button from product shelf",
+        "props": {    
+            "text": "comprar",
             "isOneClickBuy": false,
-            "buyButtonText": "comprar"
+            "blockClass":["buy__button--link"]
         }
     }
 }
