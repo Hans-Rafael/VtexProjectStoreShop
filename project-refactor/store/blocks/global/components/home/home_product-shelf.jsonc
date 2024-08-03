@@ -16,7 +16,7 @@
             "product-summary-image",
             "product-summary-description",
             "product-summary-price",
-            "product-summary-buy-button"
+            "add-to-cart-button"
         ]
     },
     "list-context.product-list#demo1": {
@@ -66,6 +66,7 @@
         "title": "product descount",
         "props": {
             "text": "20% OFF",
+            "font": "t-body",
             "blockClass": [
                 "price__off--text"
             ]
@@ -75,7 +76,12 @@
         "title": " image for likes",
         "props": {
             "src": "/arquivos/Like.png",
-            "blockClass": "likes__Product--images"
+            "blockClass": "likes__Product--images",
+            "alt": "like heart",
+            "color": "black",
+            "icons": "favorite_border",
+            "icon": true,
+            "caption": false
         }
     },
     "product-summary-image": {
@@ -88,12 +94,12 @@
             ]
         }
     },
-    "product-summary-name": {
-        "props": {
-            "blockClass": [
-                "custom__product__namey"
-            ],
-            "buyButtonText": "comprar"
+    "add-to-cart-button": {
+        "title": "Buy button from product shelf",
+        "props": {    
+            "text": "comprar",
+            "isOneClickBuy": false,
+            "blockClass":["buy__button--link"]
         }
     }
 }
