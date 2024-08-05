@@ -6,3 +6,22 @@
   font-size: 14px;
   line-height: 16.8px;
 }
+.description--product-summary-description {
+  color: #1d273499;
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  /* ** */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: Lexend;
+  height: 152px; /*reduce size to have max 3 line//
+  /* width: 212px;
+  height: 51px;
+  gap: 0px;
+  opacity: 0px; */
+}

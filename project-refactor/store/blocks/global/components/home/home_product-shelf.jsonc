@@ -16,7 +16,8 @@
             "flex-layout.col#items__descount__likes",
             "product-summary-image",
             "product-summary-description",
-            "product-summary-price",
+            "product-list-price",
+            "product-selling-price",
             "add-to-cart-button"
         ]
     },
@@ -43,12 +44,15 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 5,
-                "phone": 1
+                "tablet": 2,
+                "phone": 2
             },
             "blockClass": [
                 "home__slider2--products"
-            ]
+            ],
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "always"
         }
     },
     "flex-layout.col#items__descount__likes": {
@@ -101,7 +105,12 @@
                 "highlight"
             ],
             "message": "{savingsPercentage} OFF",
-            "percentageStyle": "compact"
+            "percentageStyle": "compact",
+            "font": "t-Lexend-400",
+            "icon": false,
+            "blockClass": [
+                "product-price-saving"
+            ]/*bg-action-primary y br2**/
         }
     },
     /* "add-to-list-btn#likes": {
@@ -117,7 +126,9 @@
         "title": "Image for likes",
         "props": {
             "src": "/arquivos/Like.png",
-            "blockClass": "likes__Product--images",
+            "blockClass": [
+                "likes__Product--images"
+            ],
             "alt": "like heart"
         }
     },
@@ -131,6 +142,31 @@
             ]
         }
     },
+    "product-summary-description": {
+        "title": "product summary description",
+        "props": {
+            "blockClass": [
+                "product-summary-description"
+            ]
+            
+        }
+    },
+    "product-list-price": {
+        "title": "product list price",
+        "props": {
+            "blockClass": [
+                "product-list-price"
+            ]
+        }
+    },
+    "product-selling-price": {
+        "title": "product-selling-price",
+        "props": {
+            "blockClass": [
+                "product-selling-price"
+            ]
+        }
+    },
     "add-to-cart-button": {
         "title": "Buy button from product shelf",
         "props": {
@@ -138,7 +174,8 @@
             "isOneClickBuy": false,
             "blockClass": [
                 "buy__button--link"
-            ]
+            ],
+            "icon": "hpa-cart" //"add_shopping_cart.png"//from arquivos
         }
     }
 }

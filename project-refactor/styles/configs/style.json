@@ -80,8 +80,8 @@
 		"background": {
 			"base": "#F5F4F6",
 			"base--inverted": "#03044e",
-			"action-primary": "#0F3E99",
-			"action-secondary": "#eef3f7",
+			"action-primary": "#F5F4F6",
+			"action-secondary": "#F5F4F6",
 			"emphasis": "#f71963",
 			"disabled": "#f2f4f5",
 			"success": "#8bc34a",
@@ -113,8 +113,8 @@
 			"muted-5": "#f2f4f5"
 		},
 		"active-background": {
-			"action-primary": "#0c389f",
-			"action-secondary": "#dbe9fd",
+			"action-primary": "#F5F4F6",
+			"action-secondary": "#F5F4F6",
 			"emphasis": "#dd1659",
 			"success": "#8bc34a",
 			"success--faded": "#eafce3",
