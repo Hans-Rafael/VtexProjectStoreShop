@@ -1,9 +1,13 @@
+.sliderTrack--slider{
+  margin-bottom: 50px;
+}
 .flexRowContent--main__container {
   background-color: #f5f4f6;
 }
 .sliderTrack--home__slider2--products {
   gap: 24px;
   /* height: 378px; */
+  margin-bottom: 50px;
 }
 .sliderLayoutContainer--slider {
   padding: 20px;
