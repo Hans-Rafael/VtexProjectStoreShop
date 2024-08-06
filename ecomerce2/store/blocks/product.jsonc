@@ -1,5 +1,9 @@
 {
   "store.product": {
-    "children": []
+    "children": [
+      "product-name",
+      "product-reviews",
+      "add-to-list-btn"
+    ]
   }
 }
