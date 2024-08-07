@@ -1,6 +1,6 @@
 .imageElement--likes__Product--images {
-  width: Hug (44px) px;
-  height: Hug (32px) px;
+  width: 44px;
+  height: 32px;
   padding: 6px 12px 6px 12px;
   gap: 10px;
   border-radius: 4px;
@@ -8,4 +8,3 @@
   opacity: 0px;
   background-color: #f5f4f6;
 }
-
