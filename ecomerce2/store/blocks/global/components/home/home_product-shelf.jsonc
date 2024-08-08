@@ -11,14 +11,16 @@
     "product-summary.shelf#demo1": {
         "title": "Products shelf items card",
         "children": [
+            "vtex.product-highlights@2.x:product-highlights", //test
             "flex-layout.col#items__descount__likes",
             "add-to-list-btn",
             "product-summary-image",
             "product-summary-description",
             "product-list-price",
             "product-selling-price",
-            "vtex.product-highlights@2.x:product-highlights",
-            "add-to-cart-button"
+            "vtex.product-highlights@2.x:product-highlights", //test
+            "add-to-cart-button",
+            "vtex.product-highlights@2.x:product-highlights" //test
         ]
     },
     "list-context.product-list#demo1": {
@@ -130,7 +132,7 @@
         "title": "vtex product highlights",
         "props": {
             "type": "collection"
-             /* "filter": {
+            /* "filter": {
                 "type": "show",
                 "highlightName": [
                     "free delivery"
@@ -138,17 +140,16 @@
             } */
         },
         "children": [
-            "product-highlight-wrapper"
-            
+            //"product-highlight-wrapper",
+            "product-highlight-text"
         ]
     },
-    "product-highlight-wrapper": {
-         
+    /* "product-highlight-wrapper": {
         "children": [
             "product-highlight-text",
             "icon#flash"
         ]
-    },
+    }, */
     "product-highlight-text": {
         "title": "product highlight text product",
         "props": {
