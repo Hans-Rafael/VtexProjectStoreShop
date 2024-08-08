@@ -13,7 +13,7 @@
     "flex-layout.row#spacer":{
         "title": "spacer at header",
         "props": {
-            "height":56,
+            "height":64,
             "fullWidth": true,
             "blockClass": "header__spacer"
         }
