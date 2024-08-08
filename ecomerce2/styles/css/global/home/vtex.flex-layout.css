@@ -13,6 +13,7 @@
   padding: 6px 12px;
 }
 .flexCol--descounts__likes--row1 {
+  height: 32px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -218,4 +219,6 @@
 }
 .flexRowContent--mobile__subtitle--container {
   background-color: #f5f4f6;
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
