@@ -58,3 +58,10 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+.clearLink {
+  font-size: 24px;
+  font-family: Lexend;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+}
