@@ -45,6 +45,11 @@
   height: 56px;
   background-color: #ffffff;
 }
+.flexRow--header__mobile__spacer{
+  width: 360px;
+  height: 40px;
+  background-color: #ffffff;
+}
 .flexRowContent--top__header {
   display: flex;
   align-items: center;
@@ -191,6 +196,7 @@
 .flexRowContent--main-header-mobile {
   display: flex;
   align-items: center;
+  background-color: #ffffff;
 }
 .flexRowContent--row__one_mobile--text {
   background-color: #f0f0f2;

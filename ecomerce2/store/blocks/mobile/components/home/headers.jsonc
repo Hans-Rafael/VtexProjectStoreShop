@@ -1,17 +1,28 @@
 {
   "sticky-layout#mobile": {
+    "title": "sticky layout mobile ",
+    "props": {
+      "blockClass": [
+        "sticky-layout-mobile"
+      ]
+    },
     "children": [
       "flex-layout.row#spacer--mobile",
-      "flex-layout.row#mobile"
+      "flex-layout.row#mobile",
+      "flex-layout.row#header__row__bottom"
+      //"slider-layout#home__header--slider"
     ]
   },
   "flex-layout.row#spacer--mobile": {
     "title": "spacer at mobile header",
     "props": {
-      "height": 40,
       "fullWidth": true,
       "blockClass": "header__mobile__spacer"
-    }
+    },
+    "children": [
+      //time
+      //status bar
+    ]
   },
   "flex-layout.row#mobile": {
     "children": [
