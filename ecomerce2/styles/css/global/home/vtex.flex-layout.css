@@ -228,3 +228,7 @@
   margin-top: 25px;
   margin-bottom: 5px;
 }
+.flexRow--flex-layout--header__row__bottom{
+  background-color: #ffffff;
+  margin-top: -8px;
+}

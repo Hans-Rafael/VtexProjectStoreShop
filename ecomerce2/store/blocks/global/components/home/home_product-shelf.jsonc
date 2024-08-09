@@ -159,8 +159,8 @@
             "isOneClickBuy": false,
             "blockClass": [
                 "buy__button--link"
-            ],
-            "icon": "hpa-cart" //"add_shopping_cart.png"//from arquivos
+            ]
+            //"icon": "hpa-cart" //"add_shopping_cart.png"//from arquivos
         }
     }
 }

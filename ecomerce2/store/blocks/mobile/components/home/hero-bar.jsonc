@@ -22,12 +22,12 @@
             ]
         }
     },
-    "image#watch_hero_mobile": {
+ /*    "image#watch_hero_mobile": {
         "title": "Image_one_watch_hero",
         "props": {
             "src": "assets/img/watch.png"
         }
-    },
+    }, */
     "image#text_hero_mobile": {
         "title": "Text_image hero mobile__ home",
         "props": {
