@@ -82,18 +82,19 @@
         }
     },
     "add-to-list-btn": {
-        "title": "wishlist btn",
+        "title": "Image for likes",
         "props": {
+            /* "src": "/arquivos/Like.png", */
             "blockClass": [
-                "wishlist--btn"
+                "likes__Product--images"
             ],
-            "wishlistIcon":"mpa-heart"
+            "alt": "like heart"
         }
     },
     "product-summary-image": {
         "title": "Product image",
         "props": {
-            "showBadge": true,
+            "showBadge": false,
             "height": 220,
             "blockClass": [
                 "custom_image__slider2"
@@ -128,6 +129,12 @@
         "title": "vtex product highlights",
         "props": {
             "type": "collection"
+            /* "filter": {
+                "type": "show",
+                "highlightName": [
+                    "free delivery"
+                ]
+            } */
         },
         "children": [
             "product-highlight-wrapper"
@@ -147,6 +154,7 @@
         }
     },
     "icon#flash": {
+        "title": "flash icon use for free delivery ",
         "props": {
             "id": "mpa-flash",
             "size": 15
