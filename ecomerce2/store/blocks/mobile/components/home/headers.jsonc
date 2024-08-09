@@ -10,7 +10,6 @@
       "flex-layout.row#spacer--mobile",
       "flex-layout.row#mobile",
       "flex-layout.row#header__row__bottom"
-      //"slider-layout#home__header--slider"
     ]
   },
   "flex-layout.row#spacer--mobile": {
