@@ -110,3 +110,11 @@
   max-width: 1092px;
   max-height: 420px;
 }
+.sliderTrackContainer--slider-images {
+  height: 340px;
+  width: 1092px;
+  margin-left: 94px;
+  gap: 24px;
+  opacity: 0px;
+  margin-bottom: 25px;
+}
