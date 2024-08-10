@@ -23,25 +23,28 @@
     "flex-layout.row#header__row__bottom": {
         "title": "Elements second row header ",
         "props": {
-            "blockClass": "flex-layout--header__row__bottom",
+            "blockClass": "flex-layout--header__row__bottom", //56px
             "marginBottom": 1,
-            "marginTop": 3
+            "marginTop": 3,
+            "height": 56,
+            "width": 1280
         },
         "children": [
             "slider-layout#row__bottom--header"
         ]
     },
-    "slider-layout#row__bottom--header": {
+    "slider-layout#row__bottom--header": { //47px
         "props": {
             "itemsPerPage": {
                 "desktop": 12,
                 "tablet": 5,
-                "phone":5
+                "phone": 5
             },
             "infinite": true,
             "showNavigationArrows": "never",
             "showPaginationDots": "never",
-            "height": 56,
+            "height": 47,
+            /* "centerMode": "to-the-left", *///agrega extra columna(food repeat)
             "blockClass": [
                 "slider-layout-row__bottom--header"
             ]

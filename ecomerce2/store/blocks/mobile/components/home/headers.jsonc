@@ -33,6 +33,7 @@
       "login"
     ],
     "props": {
+      "height":"72px",
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,

@@ -1,45 +1,50 @@
 .savings--product-price-saving {
-  color: #ffff;
-  font-size: 14px;
-  line-height: 20px;
-  height: 32px;
-  width: 100%;
+  color           : #ffff;
+  font-size       : 14px;
+  line-height     : 20px;
+  height          : 32px;
+  width           : 100%;
   background-color: #1d2734;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius   : 4px;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
 }
+
 .sellingPrice--product-selling-price--hasListPrice {
-  color: #1d2734;/*for actual price*/
-  font-family: Lexend;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 21.87px;
-  text-align: left;
-  width: 122px;
-  height: 23px;
-  top: 74px;
-  gap: 0px;
-  opacity: 0px;
+  color        : #1d2734;
+  /*for actual price*/
+  font-family  : Lexend;
+  font-size    : 20px;
+  font-weight  : 600;
+  line-height  : 21.87px;
+  text-align   : left;
+  width        : 122px;
+  height       : 23px;
+  top          : 74px;
+  gap          : 0px;
+  opacity      : 0px;
   margin-bottom: 2%;
-  height: 23px;
+  height       : 23px;
 }
+
 .listPrice--product-list-price {
-  color: #1d273466;/* price before descount*/
+  color      : #1d273466;
+  /* price before descount*/
   font-family: Lexend;
-  font-size: 14px;
+  font-size  : 14px;
   font-weight: 400;
   line-height: 16.8px;
-  text-align: left;
-  width: 68px;
-  height: 16.98px;
-  top: 59px;
-  gap: 0px;
-  opacity: 0px;
+  text-align : left;
+  width      : 68px;
+  height     : 16.98px;
+  top        : 59px;
+  gap        : 0px;
+  opacity    : 0px;
 }
+
 .listPrice {
-  height: 17px;
+  height    : 17px;
   margin-top: 9px;
 }
 
