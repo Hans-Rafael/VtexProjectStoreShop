@@ -141,6 +141,11 @@
         ]
     },
     "product-highlight-wrapper": {
+        "props": {
+            "blockClass": [
+                "home__product-highlight-wrapper"
+            ]
+        },
         "children": [
             "product-highlight-text",
             "icon#flash"
@@ -167,8 +172,8 @@
             "isOneClickBuy": false,
             "blockClass": [
                 "buy__button--link"
-            ],
-            "icon": "hpa-cart" //"add_shopping_cart.png"//from arquivos
+            ]
+            //"icon": "hpa-cart" //"add_shopping_cart.png"//>from arquivos
         }
     }
 }

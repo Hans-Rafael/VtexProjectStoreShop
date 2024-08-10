@@ -95,7 +95,7 @@
   content: "";
   position: absolute;
   right: calc(50% - 8.5px); /* Centrar círculo */
-  top: calc(50% - 8.5px); /* Centrar círculo */
+  top: calc(50% - 8.5px); 
   width: 16.96px;
   height: 16.96px;
   background-color: #1d2734;

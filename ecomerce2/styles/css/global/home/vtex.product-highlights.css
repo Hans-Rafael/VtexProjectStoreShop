@@ -6,3 +6,6 @@
   line-height: 16.8px;
   text-align: left;
 }
+.productHighlightWrapper--home__product-highlight-wrapper[data-highlight-id="150"] {
+  display: none;
+}
