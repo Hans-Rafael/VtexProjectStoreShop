@@ -2,7 +2,7 @@
   //"store.wrapper": {}
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#home__secction--1",
+      "responsive-layout.desktop#home__section-1",
       //"responsive-layout.phone#home__secction--1",
       //"responsive-layout.tablet#home__secction--1"
       "responsive-layout.mobile#home__secction--1",

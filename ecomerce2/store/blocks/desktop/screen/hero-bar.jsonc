@@ -1,9 +1,0 @@
-{
-    "responsive-layout.desktop#home__secction--1": {
-        "title": "home hero section one desktop",
-        "children":[
-            "flex-layout.row#home__secction--1"
-        ]//debo llamar mejor este home-responsive y add en children resto de componets de desktop
-    }
-    
-}
