@@ -1,114 +1,132 @@
 .paragraph--price__off--text {
-  color: #ffff;
+  color      : #ffff;
   font-family: Lexend;
-  font-size: 14px;
+  font-size  : 14px;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
+  text-align : center;
 }
+
 .wrapper--price__off--text {
-  display: flex;
+  display         : flex;
   background-color: black;
-  border-radius: 4px;
-  border: 1px;
-  gap: 10px;
-  width: 84px;
-  height: 32px;
-  align-items: center;
-  justify-content: space-around;
+  border-radius   : 4px;
+  border          : 1px;
+  gap             : 10px;
+  width           : 84px;
+  height          : 32px;
+  align-items     : center;
+  justify-content : space-around;
 }
+
 .container--subtitle--text {
   background-color: #f5f4f6;
 }
+
 .wrapper--mobile__subtitle--text {
-  font-family: "lexend";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16.8px;
-  margin-left: 30px;
-  text-align: left;
+  font-family     : "lexend";
+  font-weight     : 500;
+  font-size       : 16px;
+  line-height     : 16.8px;
+  margin-left     : 30px;
+  text-align      : left;
   background-color: #f5f4f6;
-  color: #1d2734;
+  color           : #1d2734;
 }
+
 .wrapper--text--title {
-  font-weight: bold;
-  color: #1d2734;
-  margin-left: 15px;
+  font-weight    : bold;
+  color          : #1d2734;
+  margin-left    : 15px;
   text-decoration: none;
 }
+
 .wrapper--text--description {
-  color: #1d2734;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 14.52px;
-  text-align: left;
-  margin-left: 15px;
+  color          : #1d2734;
+  font-size      : 12px;
+  font-weight    : 300;
+  line-height    : 14.52px;
+  text-align     : left;
+  margin-left    : 15px;
   text-decoration: none;
 }
+
 .wrapper--Descrition--text {
-  color: #1d2734;
-  font-weight: 400;
-  font-size: 14px;
-  text-align: left;
+  color          : #1d2734;
+  font-weight    : 400;
+  font-size      : 14px;
+  text-align     : left;
   text-decoration: none !important;
 }
+
 .wrapper--old__price--text {
-  color: #1d2734;
-  opacity: 40%;
-  font-size: 14px;
+  color      : #1d2734;
+  opacity    : 40%;
+  font-size  : 14px;
   font-weight: 400;
 }
+
 .wrapper--actual__price--text {
-  color: #1d2734;
+  color      : #1d2734;
   font-weight: 600;
-  size: 24px;
+  size       : 24px;
 }
+
 .wrapper--delivery--text {
-  color: #fa2080;
-  font-weight: 400;
-  font-size: 14px;
-  font-family: "Lexend";
+  color       : #fa2080;
+  font-weight : 400;
+  font-size   : 14px;
+  font-family : "Lexend";
   margin-right: 5px;
-  line-height: 1;
+  line-height : 1;
 }
+
 .wrapper--subtitle--text {
   font-family: "lexend";
   font-weight: 500;
-  font-size: 16px;
+  font-size  : 16px;
   line-height: 16.8px;
-  margin-left: 50px; /* 13%; */
-  text-align: left;
+  margin-left: 50px;
+  /* 13%; */
+  text-align : left;
 }
+
 .wrapper--text--format__row2 {
   font-family: "lexend";
   font-weight: 300;
-  font-size: 12px;
+  font-size  : 12px;
   line-height: 15px;
-  color: #1d2734;
+  color      : #1d2734;
 }
+
 .wrapper--link__full--text {
   font-family: "lexend";
   font-weight: 400;
-  font-size: 12px;
+  font-size  : 12px;
   line-height: 15px;
-  color: #1d2734;
+  color      : #1d2734;
 }
+
 .link--link__full--text {
-  color: #1d2734;
+  color          : #1d2734;
   text-decoration: none;
 }
+
 .link--link--text {
-  color: #1d2734;
+  color          : #1d2734;
   text-decoration: none;
 }
+
 .paragraph--Descrition--text {
   text-decoration: none !important;
 }
+
 .link--text--description {
-  color: #1d2734;
+  color          : #1d2734;
   text-decoration: none;
 }
+
 .link--text--title {
-  color: #1d2734;
+  color          : #1d2734;
   text-decoration: none;
 }
