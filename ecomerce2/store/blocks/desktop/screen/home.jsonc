@@ -1,6 +1,16 @@
 {
   "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+    "title": "Home Desktop responsive container",
+    "children": [
+      "flex-layout.row#home__section-1",
+      "flex-layout.row#subtitle",
+      "flex-layout.row#slider1__infoCards",
+      "flex-layout.row#subtitle",
+      "flex-layout.row#slider__product--list",
+      "flex-layout.row#subtitle",
+      "flex-layout.row#slider1__infoCards",
+      "flex-layout.row#subtitle",
+      "flex-layout.row#slider__product--list"
+    ]
   }
 }

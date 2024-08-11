@@ -1,26 +1,8 @@
 {
-  //"store.wrapper": {}
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#home__section-1",
-      //"responsive-layout.phone#home__secction--1",
-      //"responsive-layout.tablet#home__secction--1"
-      "responsive-layout.mobile#home__secction--1",
-      // "modal-trigger#home__text__subtitle",
-      "responsive-layout.desktop#subtilte__home--txt",
-      "responsive-layout.mobile#sliders--subtitle",
-      "flex-layout.row#slider1__infoCards",
-      "responsive-layout.desktop#subtilte__home--txt",
-      "responsive-layout.mobile#sliders--subtitle",
-      //"flex-layout.row#slider2--Product__grid",
-      "flex-layout.row#slider__product--list",
-      "responsive-layout.desktop#subtilte__home--txt",
-      "responsive-layout.mobile#sliders--subtitle",
-      "flex-layout.row#slider1__infoCards",
-      "responsive-layout.desktop#subtilte__home--txt",
-      "responsive-layout.mobile#sliders--subtitle",
-      // "flex-layout.row#slider2--Product__grid"
-      "flex-layout.row#slider__product--list"
+      "responsive-layout.mobile#home__secction--1"
     ]
   }
 }
