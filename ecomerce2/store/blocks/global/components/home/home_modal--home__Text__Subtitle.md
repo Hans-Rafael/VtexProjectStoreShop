@@ -1,4 +1,4 @@
-{
+/* {
     "modal-trigger#home__text__subtitle": {
         "children": [
             "rich-text#text__subtitle",
@@ -24,4 +24,4 @@
             "text": "Hello world from Vtex on a Pop_Up"
         }
     }
-}
+} */

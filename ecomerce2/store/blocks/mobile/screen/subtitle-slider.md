@@ -2,7 +2,8 @@
     "responsive-layout.mobile#sliders--subtitle": {
         "title": "home subtitle top slider mobile size",
         "children": [
-            "flex-layout.row#mobile--subtitle"
+            "flex-layout.row#mobile--subtitle",
+            
         ]
     }
 }

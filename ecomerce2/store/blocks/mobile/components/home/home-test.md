@@ -1,4 +1,4 @@
-{
+/* {
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
     "children": ["flex-layout.row#mobile__home"]
@@ -26,4 +26,4 @@
       "font": "t-heading-3"
     }
   }
-}
+} */
