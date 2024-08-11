@@ -129,12 +129,6 @@
         "title": "vtex product highlights",
         "props": {
             "type": "collection"
-            /* "filter": {
-                "type": "show",
-                "highlightName": [
-                    "free delivery"
-                ]
-            } */
         },
         "children": [
             "product-highlight-wrapper"

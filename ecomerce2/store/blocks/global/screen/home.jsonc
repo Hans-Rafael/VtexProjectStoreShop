@@ -3,18 +3,6 @@
     "blocks": [
       "responsive-layout.desktop#home__section-1",
       "responsive-layout.mobile#home__secction--1"
-      /* "responsive-layout.desktop#subtilte__home--txt",//* */
-      /* "responsive-layout.mobile#sliders--subtitle", */
-      /* "flex-layout.row#slider1__infoCards",//** */
-      /* "responsive-layout.desktop#subtilte__home--txt", */ //**
-      /* "responsive-layout.mobile#sliders--subtitle", */
-      /* "flex-layout.row#slider__product--list", */
-      /*  "responsive-layout.desktop#subtilte__home--txt", */
-      /*    "responsive-layout.mobile#sliders--subtitle", */
-      /* "flex-layout.row#slider1__infoCards", */
-      /*  "responsive-layout.desktop#subtilte__home--txt", */
-      /* "responsive-layout.mobile#sliders--subtitle", */
-      /* "flex-layout.row#slider__product--list" */
     ]
   }
 }

@@ -72,7 +72,7 @@
         "noFollow": false
       }
     }
-  }, 
+  },
   "flex-layout.row#card__text": {
     "title": "Title, text and stamp",
     "props": {
@@ -155,8 +155,6 @@
     },
     "children": [
       "image#button"
-      //"rich-text#card--button",
-      //"image#arrow--card"
     ]
   },
   "image#button": {
@@ -170,22 +168,4 @@
       }
     }
   }
-  /* "rich-text#card--button": {
-    "title": "Text button",
-    "props": {
-      "blockClass": [
-        "text--button"
-      ],
-      "text": "Ver precio"
-    }
-  },
-  "image#arrow--card": {
-    "title": "arrow right in the button",
-    "props": {
-      "blockClass": [
-        "arrow--text"
-      ],
-      "src": "assets/img/card_slider_one_infocard/vector_arrow.png"
-    }
-  } */
 }
