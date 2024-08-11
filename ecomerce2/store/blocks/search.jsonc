@@ -1,5 +1,7 @@
 {
   "store.search": {
+    "props": {
+    },
     "blocks": []
   }
 }

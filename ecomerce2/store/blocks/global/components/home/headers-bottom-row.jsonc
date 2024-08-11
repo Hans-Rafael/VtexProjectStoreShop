@@ -14,19 +14,40 @@
         }
     },
     "drawer": {
-        "props":{
-            "width":24,
-            "height":24
+        "props": {
+            "width": 24,
+            "height": 24
         },
-        "children": []
+        "children": [ /*Burger items*/]
     },
     "flex-layout.row#header__row__bottom": {
         "title": "Elements second row header ",
         "props": {
-            "blockClass": "Elements__row2--header",
+            "blockClass": "flex-layout--header__row__bottom", //56px
             "marginBottom": 1,
-            "marginTop": 3
-            
+            "marginTop": 3,
+            "height": 56,
+            "width": 1280
+        },
+        "children": [
+            "slider-layout#row__bottom--header"
+        ]
+    },
+    "slider-layout#row__bottom--header": { //47px
+        "props": {
+            "itemsPerPage": {
+                "desktop": 12,
+                "tablet": 5,
+                "phone": 5
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "height": 47,
+            /* "centerMode": "to-the-left", *///agrega extra columna(food repeat)
+            "blockClass": [
+                "slider-layout-row__bottom--header"
+            ]
         },
         "children": [
             "flex-layout.col#one__food--home",
@@ -51,7 +72,9 @@
             "rich-text#column__one-food-text"
         ],
         "props": {
-            "blockClass":["link--elements--row2__header"]
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
         }
     },
     "image#link__food": {
@@ -69,8 +92,10 @@
         "title": " text for food link",
         "props": {
             "text": "[Food](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
-            
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     /*  ----------------**/
@@ -80,7 +105,11 @@
             "image#link__fitness",
             "rich-text#column__one-fitness-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__fitness": {
         "title": " Image fitness link",
@@ -97,7 +126,10 @@
         "title": " Text for fitness link",
         "props": {
             "text": "[Fitness](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#three__artico--home": {
@@ -106,7 +138,11 @@
             "image#link__artico",
             "rich-text#column__one-artico-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__artico": {
         "title": " Image artico link",
@@ -123,7 +159,10 @@
         "title": " Text for artico link",
         "props": {
             "text": "[En el Ártico](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#four__poolday--home": {
@@ -132,7 +171,11 @@
             "image#link__poolday",
             "rich-text#column__one-poolday-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__poolday": {
         "title": " Image poolday link",
@@ -149,7 +192,10 @@
         "title": " Text for Poolday link",
         "props": {
             "text": "[Poolday](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#five__hotels--home": {
@@ -158,7 +204,11 @@
             "image#link__hotels",
             "rich-text#column__one-hotels-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__hotels": {
         "title": " Image hotels link",
@@ -175,7 +225,10 @@
         "title": " Text for hotels link",
         "props": {
             "text": "[Hotels](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#six__casas--home": {
@@ -184,7 +237,11 @@
             "image#link__casas",
             "rich-text#column__one-casas-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__casas": {
         "title": " Image casas link",
@@ -201,7 +258,10 @@
         "title": " Text for casas link",
         "props": {
             "text": "[Casas](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#seven__naturales--home": {
@@ -210,7 +270,11 @@
             "image#link__naturales",
             "rich-text#column__one-naturales-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__naturales": {
         "title": " Image naturales link",
@@ -227,7 +291,10 @@
         "title": " Text for fitness link",
         "props": {
             "text": "[Naturales](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#eight__closet--home": {
@@ -236,7 +303,11 @@
             "image#link__closet",
             "rich-text#column__one-closet-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__closet": {
         "title": " Image closet link",
@@ -253,7 +324,10 @@
         "title": " Text for closet link",
         "props": {
             "text": "[Closet](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#nine__playas--home": {
@@ -262,7 +336,11 @@
             "image#link__playas",
             "rich-text#column__one-playas-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__playas": {
         "title": " Image playas link",
@@ -279,7 +357,10 @@
         "title": " Text for playas link",
         "props": {
             "text": "[Playas](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#ten__alpinismo--home": {
@@ -288,7 +369,11 @@
             "image#link__alpinismo",
             "rich-text#column__one-alpinismo-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__alpinismo": {
         "title": " Image alpinismo link",
@@ -305,7 +390,10 @@
         "title": " Text for alpinismo link",
         "props": {
             "text": "[Alpinismo](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#eleven__delivery--home": {
@@ -314,7 +402,11 @@
             "image#link__delivery",
             "rich-text#column__one-delivery-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__delivery": {
         "title": " Image delivery link",
@@ -331,7 +423,10 @@
         "title": " Text for delivery link",
         "props": {
             "text": "[Delivery](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     },
     "flex-layout.col#twelve_cervezas--home": {
@@ -340,7 +435,11 @@
             "image#link__cervezas",
             "rich-text#column__one-cervezas-text"
         ],
-        "props": {"blockClass":["link--elements--row2__header"]}
+        "props": {
+            "blockClass": [
+                "link--elements--row2__header"
+            ]
+        }
     },
     "image#link__cervezas": {
         "title": " Image cervezas link",
@@ -357,7 +456,10 @@
         "title": " Text for cervezas link",
         "props": {
             "text": "[Cervezas](https://)",
-            "blockClass":["text--format__row2","link__full--text"]
+            "blockClass": [
+                "text--format__row2",
+                "link__full--text"
+            ]
         }
     }
 }

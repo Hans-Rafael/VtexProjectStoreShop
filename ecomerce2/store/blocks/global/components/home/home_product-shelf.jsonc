@@ -11,13 +11,12 @@
     "product-summary.shelf#demo1": {
         "title": "Products shelf items card",
         "children": [
-            //"product-price-savings",
-            //"image#item__likes",
             "flex-layout.col#items__descount__likes",
             "product-summary-image",
             "product-summary-description",
             "product-list-price",
             "product-selling-price",
+            "vtex.product-highlights@2.x:product-highlights", //test
             "add-to-cart-button"
         ]
     },
@@ -63,41 +62,10 @@
             ]
         },
         "children": [
-            // "vtex.product-highlights@2.x:product-highlights",
             "product-price-savings",
-            //"add-to-list-btn",
-            "image#item__likes"
+            "add-to-list-btn"
         ]
     },
-    /* "vtex.product-highlights@2.x:product-highlights": {
-        "props": {
-            "type": "promotion",
-            "filter": {
-                "type": "show",
-                "highlightNames": [
-                    "20% OFF"
-                ]
-            }
-        },
-        "children": [
-            //"product-highlight-text"
-            "product-highlight-wrapper#discount__likes"
-        ]
-    },
-     "product-highlight-wrapper#discount__likes": {
-        "children": [
-            "icon-star",
-            "product-highlight-text"
-        ]
-    }, */
-    /* "product-highlight-text": {
-        "props": {
-            "message": "{highlightName}",
-            "blockClass": [
-                "product-highlight-discount"
-            ]
-        }
-    }, */
     "product-price-savings": {
         "title": "discount text",
         "props": {
@@ -110,22 +78,13 @@
             "icon": false,
             "blockClass": [
                 "product-price-saving"
-            ]/*bg-action-primary y br2**/
+            ]
         }
     },
-    /* "add-to-list-btn#likes": {
-        "children": [
-            "image#item__likes"
-        ],
-        "props": {
-            "productId": "{productId}",
-            "blockClass": "likes__button"
-        }
-    },*/
-    "image#item__likes": {
+    "add-to-list-btn": {
         "title": "Image for likes",
         "props": {
-            "src": "/arquivos/Like.png",
+            /* "src": "/arquivos/Like.png", */
             "blockClass": [
                 "likes__Product--images"
             ],
@@ -135,7 +94,7 @@
     "product-summary-image": {
         "title": "Product image",
         "props": {
-            "showBadge": true,
+            "showBadge": false,
             "height": 220,
             "blockClass": [
                 "custom_image__slider2"
@@ -148,7 +107,6 @@
             "blockClass": [
                 "product-summary-description"
             ]
-            
         }
     },
     "product-list-price": {
@@ -167,6 +125,40 @@
             ]
         }
     },
+    "vtex.product-highlights@2.x:product-highlights": {
+        "title": "vtex product highlights",
+        "props": {
+            "type": "collection"
+        },
+        "children": [
+            "product-highlight-wrapper"
+        ]
+    },
+    "product-highlight-wrapper": {
+        "props": {
+            "blockClass": [
+                "home__product-highlight-wrapper"
+            ]
+        },
+        "children": [
+            "product-highlight-text",
+            "icon#flash"
+        ]
+    },
+    "product-highlight-text": {
+        "title": "product highlight text product",
+        "props": {
+            "message": "{highlightName}",
+            "blockClass": "product-highlight-text"
+        }
+    },
+    "icon#flash": {
+        "title": "flash icon use for free delivery ",
+        "props": {
+            "id": "mpa-flash",
+            "size": 15
+        }
+    },
     "add-to-cart-button": {
         "title": "Buy button from product shelf",
         "props": {
@@ -174,8 +166,8 @@
             "isOneClickBuy": false,
             "blockClass": [
                 "buy__button--link"
-            ],
-            "icon": "hpa-cart" //"add_shopping_cart.png"//from arquivos
+            ]
+            //"icon": "hpa-cart" //"add_shopping_cart.png"//>from arquivos
         }
     }
 }

@@ -10,10 +10,10 @@
             "flex-layout.row#header__row__bottom" //--> global
         ]
     },
-    "flex-layout.row#spacer":{
+    "flex-layout.row#spacer": {
         "title": "spacer at header",
         "props": {
-            "height":56,
+            "height": 56,
             "fullWidth": true,
             "blockClass": "header__spacer"
         }
@@ -38,10 +38,19 @@
             "flex-layout.col#ofertas-home",
             "flex-layout.col#cyber__monday-home",
             "flex-layout.col#never_say-home",
-            "locale-switcher",
+            /* "locale-switcher", */
             "minicart.v2", //>global
             "login" //>global
         ]
+    },
+    "search-bar": {
+        "props": {
+            "blockClass": [
+                "search-bar--header"
+            ],
+            "placeholder": "Search products...",
+            "maxWidth": 280
+        }
     },
     "flex-layout.col#tendencias-home": {
         "title": "link to tendencias",

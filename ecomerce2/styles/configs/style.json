@@ -78,11 +78,10 @@
   },
   "semanticColors": {
     "background": {
-
       "base": "#F5F4F6",
       "base--inverted": "#03044e",
-      "action-primary": "00000000",
-      "action-secondary": "#F5F4F6",
+      "action-primary": "#F5F4F6",
+      "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
@@ -99,7 +98,7 @@
     },
     "hover-background": {
       "action-primary": "#F5F4F6",
-      "action-secondary": "#F5F4F6",
+      "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
