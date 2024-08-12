@@ -1,0 +1,23 @@
+.flexRowContent--top__header {
+    max-width: 1280px;
+}
+
+.flexRowContent--Elements__row2--header {
+    display: flex;
+}
+
+.flexRow--top__header {
+    background-color: white;
+}
+
+.flexRow--Elements__row2--header {
+    background-color: #ffffff;
+    width           : 100%;
+    height          : 56px;
+    margin-top      : -8px;
+}
+
+.flexCol--link--elements--row2__header {
+    display    : flex;
+    align-items: center;
+}
