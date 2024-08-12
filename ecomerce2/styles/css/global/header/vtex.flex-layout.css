@@ -1,3 +1,9 @@
+/*flexCol--link--elements--row2__header  */
+.flexCol--link--elements--row2__header {
+  display    : flex ;
+  align-items: center ;
+  width      : 72px ;
+}
 .flexRow--flex-layout--header__row__bottom {
   background-color: #ffff;
   height          : 56px;
@@ -8,7 +14,8 @@
 /* <768 phone tablet 1024 por ser mobile use tablet */
 @media (max-width: 1024px) {
   .flexRow--flex-layout--header__row__bottom {
-    width: 360px;
+    /* width: 360px; */
+    max-width: 1024px;
   }
 }
 

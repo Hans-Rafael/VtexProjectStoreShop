@@ -55,12 +55,6 @@
   margin-bottom   : -1px;
 }
 
-.flexRow--header__mobile__spacer {
-  width           : 360px;
-  height          : 40px;
-  background-color: #ffffff;
-}
-
 .flexRowContent--top__header {
   display      : flex;
   align-items  : center;
@@ -83,26 +77,6 @@
   background-color: #f5f4f6;
   margin-bottom   : 0px;
   height          : 428px;
-}
-
-.flexRowContent--Elements__row2--header {
-  display: flex;
-}
-
-.flexRow--top__header {
-  background-color: white;
-}
-
-.flexRow--Elements__row2--header {
-  background-color: #ffffff;
-  width           : 100%;
-  height          : 56px;
-  margin-top      : -8px;
-}
-
-.flexCol--link--elements--row2__header {
-  display    : flex;
-  align-items: center;
 }
 
 .flexCol--full__card {
@@ -293,9 +267,6 @@
   }
 }
 
-.flexCol--link--elements--row2__header {
-  width: 72px;
-}
 
 /* .slideChildrenContainer--slider-layout-row__bottom--header{
   width: 72px;

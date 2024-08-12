@@ -17,35 +17,34 @@
     "props": {
       "fullWidth": true,
       "blockClass": "header__mobile__spacer"
-    },
-    "children": [
-      //time
-      //status bar
-    ]
+    }
   },
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
       "logo",
       "flex-layout.col#spacer",
-      "search-bar",
+      "search-bar#mobile",
       "minicart.v2",
       "login"
     ],
     "props": {
-      "height":"72px",
+      "height": "72px",
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
-  "login": {
+  "search-bar#mobile": {
     "props": {
-      "optionsTitle": "login",
-      "hideIconLabel": false,
-      "iconLabel": "login",
-      "hasGoogleOneTap": true
+      "displayMode": "search-button",
+      "customSearchPageUrl": "/search?query=${term}",
+      "autocompleteAlignment": "left",
+      "autocompleteFullWidth": false,
+      "openAutocompleteOnFocus": false,
+      /* top32 left200 */
+      "blockClass": "main-search-mobile"
     }
   }
 }
