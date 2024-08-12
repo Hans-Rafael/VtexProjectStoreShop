@@ -22,10 +22,10 @@
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true,
-      "optionsTitle": "login",
-      "iconLabel": "login",
+      "optionsTitle": "login"
+      /* "iconLabel": "login",
       "showIconProfile": true,
-      "hideIconLabel": false
+      "hideIconLabel": false */
     }
   },
   "product-summary.shelf": {

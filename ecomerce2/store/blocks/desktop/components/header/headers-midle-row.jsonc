@@ -29,7 +29,7 @@
             "blockClass": "top__header"
         },
         "children": [
-            "drawer", //->global
+            "drawer#header__desktop--burger",
             "logo", //>global
             "search-bar",
             "flex-layout.col#spacer", //>Global
@@ -43,6 +43,44 @@
             "login" //>global
         ]
     },
+    "drawer#header__desktop--burger": {
+        "children": [
+            "menu#drawer"
+        ],
+        "blocks": [
+            "drawer-trigger"
+        ]
+    },
+    "drawer-trigger": {
+        "children": [
+            "image#burger--image"
+            // "rich-text#open-drawer"
+        ]
+    },
+    "image#burger--image": {
+        "title": " Image link food",
+        "props": {
+            "src": "assets/img/nav_bar/header/hpa-hamburguer-menu.png",
+            "alt": "Burger"
+        }
+    },
+    "rich-text#open-drawer": {
+        "props": {
+            "text": "Open drawer"
+        }
+    },
+    /**en otro file****/
+    "menu#drawer": {
+        "children": [
+            "menu-item#category--deals"
+            /* "menu-item#category-decoration",
+            "menu-item#custom-sale" */
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    /*****/
     "search-bar": {
         "props": {
             "blockClass": [
@@ -167,6 +205,12 @@
             "blockClass": [
                 "link__full--text"
             ]
+        }
+    },
+    "login": {
+        "props": {
+            "optionsTitle": "login",
+            "iconLabel": "login"
         }
     }
 }

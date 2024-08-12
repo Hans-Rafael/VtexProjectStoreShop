@@ -1,0 +1,20 @@
+{
+    "menu-item#category--deals": {
+       // "title": "desktop menu item category deals",
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": "Deals"
+            }
+        },
+        "blocks": [
+           // "vtex.menu@2.x:submenu#subcategories--deals"
+        ] // Defining a submenu
+    }
+}
