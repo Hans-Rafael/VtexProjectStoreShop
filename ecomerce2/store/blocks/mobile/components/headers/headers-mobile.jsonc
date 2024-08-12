@@ -17,11 +17,7 @@
     "props": {
       "fullWidth": true,
       "blockClass": "header__mobile__spacer"
-    },
-    "children": [
-      //time
-      //status bar
-    ]
+    }
   },
   "flex-layout.row#mobile": {
     "children": [
