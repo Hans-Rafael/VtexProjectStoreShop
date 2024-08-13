@@ -60,6 +60,7 @@
   align-items  : center;
   padding-left : 50px;
   padding-right: 50px;
+  max-width: 1280px;
 }
 
 .flexRow--Slider__cointeiner {
@@ -68,9 +69,6 @@
   margin-bottom   : 0px;
   margin-top      : 0px;
   background-color: #f5f4f6;
-  /* gap          : 24px;
-  padding         : 20px;
-   */
 }
 
 .flexRow--Slider2__container {

@@ -30,7 +30,7 @@
         },
         "children": [
             "drawer#header__desktop--burger",
-            "logo", //>global
+            "logo",//global
             "search-bar",
             "flex-layout.col#spacer", //>Global
             "flex-layout.col#tendencias-home",
