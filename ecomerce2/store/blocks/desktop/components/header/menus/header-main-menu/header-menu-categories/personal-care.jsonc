@@ -1,0 +1,19 @@
+{
+    "menu-item#personal__care": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-personal__care",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "personal__care",
+                "text": "Personal care"
+            }
+        }
+    }
+}

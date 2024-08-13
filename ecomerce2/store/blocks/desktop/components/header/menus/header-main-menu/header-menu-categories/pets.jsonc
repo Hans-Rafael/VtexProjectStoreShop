@@ -1,0 +1,19 @@
+{
+    "menu-item#pets": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-pets",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "pets",
+                "text": "Pets"
+            }
+        }
+    }
+}

@@ -11,16 +11,17 @@
 }
 
 .label {
-  color      : #ffff;
-  width      : 37px;
-  height     : 18px;
-  font-family: "Lexend", Courier, monospace;
-  font-size  : 14px;
-  font-weight: 300;
-  line-height: 17.5px;
+  color       : #ffff;
+  display     : inline-block;
+  width       : 37px;
+  height      : 18px;
+  font-family : "Lexend", Courier, monospace;
+  font-size   : 14px;
+  font-weight : 300;
+  line-height : 17.5px;
   padding-left: 0 !important;
-  text-align : center;
-  width: 100%;
+  text-align  : center;
+  width       : 100%;
 }
 
 .arrowUp {

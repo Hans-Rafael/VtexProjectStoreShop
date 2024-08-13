@@ -1,0 +1,19 @@
+{
+    "menu-item#home__furniture": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-home__furniture",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "home__furniture",
+                "text": "Home furniture"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "menu-item#pharmacy": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-pharmacy",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "pharmacy",
+                "text": "Pharmacy"
+            }
+        }
+    }
+}

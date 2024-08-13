@@ -1,0 +1,16 @@
+{
+  "menu-item#shop_all_deals": {
+        "props": {
+            "id": "menu-item-all-deals",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop all deals",
+                "text": "Shop all deals"
+            }
+        }
+    }
+}

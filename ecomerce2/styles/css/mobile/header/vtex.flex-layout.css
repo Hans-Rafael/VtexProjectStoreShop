@@ -1,0 +1,6 @@
+.flexRow--header__mobile__spacer {
+  width           : 360px;
+  height          : 16px;
+  /* height of mobile header 72px total - 56px desktop header */
+  background-color: #ffffff;
+}

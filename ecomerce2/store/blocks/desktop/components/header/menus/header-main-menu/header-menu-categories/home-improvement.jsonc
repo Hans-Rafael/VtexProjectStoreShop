@@ -1,0 +1,19 @@
+{
+    "menu-item#home__improvement": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-home__improvement",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "home__improvement",
+                "text": "Home improvement"
+            }
+        }
+    }
+}

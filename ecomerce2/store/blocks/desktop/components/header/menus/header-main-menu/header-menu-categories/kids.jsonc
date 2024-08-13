@@ -1,0 +1,19 @@
+{
+    "menu-item#kids": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-kids",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "kids",
+                "text": "Kids"
+            }
+        }
+    }
+}
