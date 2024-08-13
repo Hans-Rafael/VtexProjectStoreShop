@@ -78,7 +78,7 @@
 
  @media (max-width: 1024px) {
    :global(.vtex-minicart-2-x-minicartIconContainer) {
-     margin-left: -60px;
+     margin-left: -70px;
      margin-right: 0px;
    }
  }
