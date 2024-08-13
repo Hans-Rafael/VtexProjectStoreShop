@@ -1,0 +1,19 @@
+{
+    "menu-item#valentine": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-valentine",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "valentine",
+                "text": "Valentine"
+            }
+        }
+    }
+}

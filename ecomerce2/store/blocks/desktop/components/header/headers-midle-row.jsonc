@@ -29,8 +29,9 @@
             "blockClass": "top__header"
         },
         "children": [
-            "drawer#header__desktop--burger",
-            "logo",//global
+            //"drawer#header__desktop--burger",
+            "vtex.menu@2.x:menu#main-menu",
+            "logo", //global
             "search-bar",
             "flex-layout.col#spacer", //>Global
             "flex-layout.col#tendencias-home",
@@ -43,9 +44,11 @@
             "login" //>global
         ]
     },
-    "drawer#header__desktop--burger": {
+    /* drawer componet other time */
+    /*  "drawer#header__desktop--burger": {
         "children": [
-            "menu#drawer"
+            //"menu#drawer"
+            //"vtex.menu@2.x:menu#category-menu"
         ],
         "blocks": [
             "drawer-trigger"
@@ -54,7 +57,7 @@
     "drawer-trigger": {
         "children": [
             "image#burger--image"
-            // "rich-text#open-drawer"
+            // "rich-text#open-drawer"//con txt en luigar de img
         ]
     },
     "image#burger--image": {
@@ -63,23 +66,18 @@
             "src": "assets/img/nav_bar/header/hpa-hamburguer-menu.png",
             "alt": "Burger"
         }
-    },
-    "rich-text#open-drawer": {
-        "props": {
-            "text": "Open drawer"
-        }
-    },
-    /**en otro file****/
-    "menu#drawer": {
+    }, */
+    /**en otro file an if i work with drawer componet****/
+    /* "menu#drawer": {
         "children": [
             "menu-item#category--deals"
-            /* "menu-item#category-decoration",
-            "menu-item#custom-sale" */
+            //"menu-item#category-decoration",
+            //"menu-item#custom-sale"
         ],
         "props": {
             "orientation": "vertical"
         }
-    },
+    }, */
     /*****/
     "search-bar": {
         "props": {

@@ -1,0 +1,19 @@
+{
+    "menu-item#patio": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-patio",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "patio",
+                "text": "Patio"
+            }
+        }
+    }
+}

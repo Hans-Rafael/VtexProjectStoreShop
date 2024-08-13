@@ -1,0 +1,19 @@
+{
+    "menu-item#game__time": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-game__time",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "game__time",
+                "text": "Game time"
+            }
+        }
+    }
+}

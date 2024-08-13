@@ -1,0 +1,36 @@
+{
+    "menu-item#deals": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "deals",
+                "text": "Deals"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#deals-category"
+        ]
+    },
+      /*Deal subcategories **/
+    "vtex.menu@2.x:submenu#deals-category": {
+        "title": "Submenu, deals category ",
+        "children": [
+            "menu-item#deals__subtitle",//titulo
+            "menu-item#shop_all_deals"
+            //"menu-item#electronics",
+            //"menu-item#toys"
+        ],
+        "props": {
+            "orientation":"horizontal",
+            "textType": "heading1"
+        }
+    }
+}

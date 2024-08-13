@@ -1,0 +1,87 @@
+{
+    "vtex.menu@2.x:menu#main-menu": {
+        "title": "the main menu",
+        "children": [
+            "menu-item#shop"
+        ],
+        "props": {
+            "blockClass": [
+                "main__menu--burger"
+            ],
+            "textType": "heading1"
+        }
+    },
+    "menu-item#shop": {
+        "props": {
+            "blockClass": [
+                "menu-item-shop"
+            ],
+            "id": "menu-item-shop",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Shop"
+                //"text": "Shop"
+            },
+            "iconProps": {
+                "id": "hpa-hamburguer-menu",
+                "size": 24,
+                "viewBox": "0 0 24 24",
+                //"activeClassName": "rebel-pink",
+                "mutedClassName": "c-action-primary"
+            },
+            "iconPosition": "right"
+            //"iconToTheRight": true
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#main_categories_shop"
+        ]
+    },
+    /*submenu main categories*/
+    "vtex.menu@2.x:submenu#main_categories_shop": {
+        "title": "Submenu, Store main Menu Category ",
+        "children": [
+            "menu-item#main__title",
+            "menu-item#deals",
+            "menu-item#grocery",
+            "menu-item#new_year__goals",
+            "menu-item#valentine",
+            "menu-item#game__time",
+            "menu-item#clothing",
+            "menu-item#electronics",
+            "menu-item#home__furniture",
+            "menu-item#toys",
+            "menu-item#baby",
+            "menu-item#kids",
+            "menu-item#auto",
+            "menu-item#pharmacy",
+            "menu-item#personal__care",
+            "menu-item#beauty",
+            "menu-item#pets",
+            "menu-item#home__improvement",
+            "menu-item#patio",
+            "menu-item#household"
+        ],
+        "props": {
+            "textType": "heading1",
+            "orientation": "vertical"
+        }
+    }
+    /* "menu-item#dealsx": {
+        "props": {
+            "id": "menu-item-deals",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "deal",
+                "text": "Deals"
+            }
+        }
+    } */
+}

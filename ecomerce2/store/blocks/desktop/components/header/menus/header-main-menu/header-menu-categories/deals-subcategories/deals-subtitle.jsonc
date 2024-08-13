@@ -1,0 +1,16 @@
+{
+  "menu-item#deals__subtitle": {
+        "props": {
+            "id": "menu-item-deals-title",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": " **Deals** "
+            }
+        }
+    }
+}

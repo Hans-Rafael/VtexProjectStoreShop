@@ -1,0 +1,19 @@
+{
+    "menu-item#beauty": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-beauty",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "beauty",
+                "text": "Beauty"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "menu-item#baby": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-baby",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "baby",
+                "text": "Baby"
+            }
+        }
+    }
+}

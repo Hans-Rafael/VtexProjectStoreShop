@@ -1,0 +1,19 @@
+{
+    "menu-item#grocery": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-grocery",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "grocery",
+                "text": "Grocery"
+            }
+        }
+    }
+}

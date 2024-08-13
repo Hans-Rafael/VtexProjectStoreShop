@@ -1,0 +1,19 @@
+{
+    "menu-item#clothing": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-clothing",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "clothing",
+                "text": "Clothing"
+            }
+        }
+    }
+}

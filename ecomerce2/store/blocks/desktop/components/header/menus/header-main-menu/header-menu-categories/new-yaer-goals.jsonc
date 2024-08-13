@@ -1,0 +1,19 @@
+{
+    "menu-item#new_year__goals": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-new_year__goals",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "new_year__goals",
+                "text": "New year goals"
+            }
+        }
+    }
+}

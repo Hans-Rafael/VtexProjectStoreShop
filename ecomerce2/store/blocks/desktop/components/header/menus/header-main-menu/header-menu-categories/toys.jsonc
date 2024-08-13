@@ -1,0 +1,19 @@
+{
+    "menu-item#toys": {
+        "props": {
+            "blockClass": [
+                "subtitle__menu-item"
+            ],
+            "id": "menu-item-toys",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "toys",
+                "text": "Toys"
+            }
+        }
+    }
+}
