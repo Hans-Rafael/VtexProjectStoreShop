@@ -1,5 +1,5 @@
 {
-    "menu-item#pharmacy": {
+    "menu-item#pharmacy-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

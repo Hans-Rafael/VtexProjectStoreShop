@@ -1,5 +1,5 @@
 {
-    "menu-item#beauty": {
+    "menu-item#beauty-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

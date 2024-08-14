@@ -1,6 +1,7 @@
 {
-  "menu-item#shop_all_deals": {
+    "menu-item#shop_all_deals": {
         "props": {
+            "blockClass": ["deal-subcategory"],
             "id": "menu-item-all-deals",
             "type": "custom",
             "highlight": false,
@@ -12,5 +13,290 @@
                 "text": "Shop all deals"
             }
         }
-    }
+    },
+    "menu-item#shop_all_deals-subcategory": {
+        "props": {
+            "blockClass": ["deal-subcategory"],
+            "id": "menu-item-shop_all_deals-subcategory",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "shop_all_deals-subcategory",
+                "text": "Shop All Deals Subcategory"
+            }
+        }
+    },
+    "menu-item#electronics-subcategory":{
+        "props": {
+            "blockClass": ["deal-subcategory"],
+            "id": "menu-item-electronics-subcategory",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "electronics-subcategory",
+                "text": "Electronics"
+            }
+        }
+    },
+    "menu-item#toys-subcategory":{
+        "props": {
+            "blockClass": ["deal-subcategory"],
+            "id": "menu-item-toys",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "toys",
+                "text": "Toys"
+            }
+        }
+    },
+            "menu-item#home-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-home",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "home",
+                        "text": "Home"
+                    }
+                }
+            },
+            "menu-item#clothing-accesories-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-clothing-accesories",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "clothing-accesories",
+                        "text": "Clothing & Accesories"
+                    }
+                }
+            },
+            "menu-item#seasonal-decor-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-seasonal-decor",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "seasonal-decor",
+                        "text": "Seasonal Decor"
+                    }
+                }
+            },
+            "menu-item#video-games-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-video-games",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "video-games",
+                        "text": "Video Games"
+                    }
+                }
+            },
+            "menu-item#kitchen-dining-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-kitchen-dining",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "kitchen-dining",
+                        "text": "Kitchen & Dining"
+                    }
+                }
+            },
+            "menu-item#food-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-food",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "food",
+                        "text": "Food"
+                    }
+                }
+            },
+            "menu-item#patio-garden-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-patio-garden",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "patio-garden",
+                        "text": "Patio & Garden"
+                    }
+                }
+            },
+            "menu-item#baby-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-baby",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "baby",
+                        "text": "Baby"
+                    }
+                }
+            },
+            "menu-item#sports-outdoors-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-sports-outdoors",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "sports-outdoors",
+                        "text": "Sports & Outdoors"
+                    }
+                }
+            },
+            "menu-item#auto-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-auto",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "auto",
+                        "text": "Auto"
+                    }
+                }
+            },
+            "menu-item#beauty-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-beauty",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "beauty",
+                        "text": "Beauty"
+                    }
+                }
+            },
+            "menu-item#home__improvement-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-home__improvement",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "home__improvement",
+                        "text": "Home Improvement"
+                    }
+                }
+            },
+            "menu-item#book-movies-music-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-book-movies-music",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "book-movies-music",
+                        "text": "Book,Movies & Music"
+                    }
+                }
+            },
+            "menu-item#outdoors-play-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-outdoors-play",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "outdoors-play",
+                        "text": "Outdoors & Play"
+                    }
+                }
+            },
+            "menu-item#wellness-personal__care-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "mmenu-item-wellness-personal__care",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "wellness-personal__care",
+                        "text": "Wellness & Personal Care"
+                    }
+                }
+            },
+            "menu-item#pets-subcategory":{
+                "props": {
+                    "blockClass": ["deal-subcategory"],
+                    "id": "menu-item-pets",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "pets",
+                        "text": "Pets"
+                    }
+                }
+            }
 }

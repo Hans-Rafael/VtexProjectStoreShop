@@ -1,5 +1,5 @@
 {
-    "menu-item#home__furniture": {
+    "menu-item#home__furniture-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

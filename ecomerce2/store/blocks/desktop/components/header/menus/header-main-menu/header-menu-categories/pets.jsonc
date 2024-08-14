@@ -1,5 +1,5 @@
 {
-    "menu-item#pets": {
+    "menu-item#pets-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

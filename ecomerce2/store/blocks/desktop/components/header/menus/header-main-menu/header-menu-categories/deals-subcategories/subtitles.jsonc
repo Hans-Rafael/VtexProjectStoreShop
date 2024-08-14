@@ -1,0 +1,53 @@
+{
+    "menu-item#deals__subtitle": {
+        "props": {
+            "blockClass": [
+                "subtilte--menu"
+            ],
+            "id": "menu-item-deals-title",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": " **Deals** "
+            }
+        }
+    },
+    "menu-item#end-of-year-clearence": {
+        "props": {
+            "blockClass": [
+                "subtilte--menu"
+            ],
+            "id": "end-of-year-clearence-title",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "end-of-year-clearence",
+                "text": " **End Of Year Clearence** "
+            }
+        }
+    },
+    "menu-item#more-deals": {
+        "props": {
+            "blockClass": [
+                "subtilte--menu"
+            ],
+            "id": "more-deals-title",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "more-deals",
+                "text": " **More Deals** "
+            }
+        }
+    }
+}

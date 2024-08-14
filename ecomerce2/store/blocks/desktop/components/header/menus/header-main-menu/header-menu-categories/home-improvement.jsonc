@@ -1,5 +1,5 @@
 {
-    "menu-item#home__improvement": {
+    "menu-item#home__improvement-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

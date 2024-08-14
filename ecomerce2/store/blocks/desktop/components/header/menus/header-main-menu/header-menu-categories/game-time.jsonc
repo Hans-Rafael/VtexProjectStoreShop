@@ -1,5 +1,5 @@
 {
-    "menu-item#game__time": {
+    "menu-item#game__time-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

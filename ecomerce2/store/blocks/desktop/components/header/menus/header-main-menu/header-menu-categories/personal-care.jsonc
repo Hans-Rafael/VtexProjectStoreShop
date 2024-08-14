@@ -1,5 +1,5 @@
 {
-    "menu-item#personal__care": {
+    "menu-item#personal__care-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

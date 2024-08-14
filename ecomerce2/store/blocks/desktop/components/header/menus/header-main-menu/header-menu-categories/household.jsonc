@@ -1,5 +1,5 @@
 {
-    "menu-item#household": {
+    "menu-item#household-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"
