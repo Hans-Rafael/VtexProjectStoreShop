@@ -1,5 +1,5 @@
 {
-    "menu-item#new_year__goals": {
+    "menu-item#new_year__goals-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

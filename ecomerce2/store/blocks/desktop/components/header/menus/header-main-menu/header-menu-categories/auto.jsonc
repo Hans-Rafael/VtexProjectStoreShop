@@ -1,5 +1,5 @@
 {
-    "menu-item#auto": {
+    "menu-item#auto-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

@@ -1,5 +1,5 @@
 {
-    "menu-item#deals": {
+    "menu-item#deals-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"
@@ -19,18 +19,117 @@
             "vtex.menu@2.x:submenu#deals-category"
         ]
     },
-      /*Deal subcategories **/
+    /*Deal subcategories **/
     "vtex.menu@2.x:submenu#deals-category": {
         "title": "Submenu, deals category ",
         "children": [
-            "menu-item#deals__subtitle",//titulo
-            "menu-item#shop_all_deals"
-            //"menu-item#electronics",
-            //"menu-item#toys"
+            "menu-item#deals__subtitle1", //sub_title
+            /*  "menu-item#shop_all_deals-subcategory",
+            "menu-item#electronics-subcategory",
+            "menu-item#toys-subcategory",
+            "menu-item#home-subcategory",
+            "menu-item#clothing-accesories-subcategory",
+            "menu-item#seasonal-decor-subcategory",
+            "menu-item#video-games-subcategory",
+            "menu-item#kitchen-dining-subcategory",
+            "menu-item#food-subcategory",
+            "menu-item#patio-garden-subcategory",
+            "menu-item#baby-subcategory",
+            "menu-item#sports-outdoors-subcategory",
+            "menu-item#auto-subcategory",
+            "menu-item#beauty-subcategory",
+            "menu-item#home__improvement-subcategory",
+            "menu-item#book-movies-music-subcategory",
+            "menu-item#outdoors-play-subcategory",
+            "menu-item#wellness-personal__care-subcategory",
+            "menu-item#pets-subcategory", */
+            "menu-item#end-of-year-clearence1" //sub_title
+            /* "menu-item#more-deals" //sub_title */
         ],
         "props": {
-            "orientation":"horizontal",
+            //"orientation": "vertical",
             "textType": "heading1"
+        }
+    },
+    /***********************/
+    "menu-item#deals__subtitle1": {
+        "props": {
+            "blockClass": [
+                "subtilte--menu"
+            ],
+            "id": "menu-item-deals-title",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": " **Deals** "
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#deals__subtitle1"
+        ]
+    },
+    /***********/
+    "menu-item#end-of-year-clearence1": {
+        "props": {
+            "blockClass": [
+                "subtilte--menu"
+            ],
+            "id": "menu-item-end-of-year-clearence1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Deals",
+                "text": " **End Of Year Clearence** "
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#end-of-year-clearence1"
+        ]
+    },
+    /*********************/
+    "vtex.menu@2.x:submenu#deals__subtitle1": {
+        "title": "deal full items categories",
+        "children": [
+            "menu-item#shop_all_deals-subcategory",
+            "menu-item#electronics-subcategory",
+            "menu-item#toys-subcategory",
+            "menu-item#home-subcategory",
+            "menu-item#clothing-accesories-subcategory",
+            "menu-item#seasonal-decor-subcategory",
+            "menu-item#video-games-subcategory",
+            "menu-item#kitchen-dining-subcategory",
+            "menu-item#food-subcategory",
+            "menu-item#patio-garden-subcategory",
+            "menu-item#baby-subcategory",
+            "menu-item#sports-outdoors-subcategory",
+            "menu-item#auto-subcategory",
+            "menu-item#beauty-subcategory",
+            "menu-item#home__improvement-subcategory",
+            "menu-item#book-movies-music-subcategory",
+            "menu-item#outdoors-play-subcategory",
+            "menu-item#wellness-personal__care-subcategory",
+            "menu-item#pets-subcategory"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:submenu#end-of-year-clearence1": {
+        "title": "end of year claerace full items submenu",
+        "children": [
+            //clearice items
+            "menu-item#more-deals" //sub_title
+            //rest of items
+        ],
+        "props": {
+            "orientation": "vertical"
         }
     }
 }

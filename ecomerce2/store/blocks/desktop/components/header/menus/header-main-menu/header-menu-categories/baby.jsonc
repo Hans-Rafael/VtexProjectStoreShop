@@ -1,5 +1,5 @@
 {
-    "menu-item#baby": {
+    "menu-item#baby-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

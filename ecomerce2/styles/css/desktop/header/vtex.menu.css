@@ -1,10 +1,11 @@
 .styledLinkContent--subtitle__menu-item {
-    color: #1D2734;
-    font-family: "Lexend", Courier, monospace;
-    font-size  : 14px;
-    font-weight: 600;
-    line-height: 17.5px;
+    color      : #1D2734;
+    font-family: Lexend;
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
     text-align : left;
+
 
 }
 
@@ -21,4 +22,11 @@
     color      : #1D2734;
     /* var(--text-main) */
 
+}
+
+.menuItem--subtitle__menu-item--isOpen {
+    background : #FF832433;
+    border-left: 4px solid #FF8324;
+
+    /* background-color: antiquewhite; */
 }

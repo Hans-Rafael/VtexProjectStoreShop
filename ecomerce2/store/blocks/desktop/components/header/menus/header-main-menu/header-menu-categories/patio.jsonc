@@ -1,5 +1,5 @@
 {
-    "menu-item#patio": {
+    "menu-item#patio-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"

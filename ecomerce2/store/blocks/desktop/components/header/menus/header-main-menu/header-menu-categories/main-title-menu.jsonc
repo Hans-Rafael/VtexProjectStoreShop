@@ -13,7 +13,7 @@
                 "text": "All Categories"
             },
             "iconProps": {
-                "id": "bnd-logo",
+                "id": "bnd-logo",/* "bnd-icon-color", */
                 "size": 16,
                 "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",

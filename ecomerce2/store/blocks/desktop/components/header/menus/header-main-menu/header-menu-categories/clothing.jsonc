@@ -1,5 +1,5 @@
 {
-    "menu-item#clothing": {
+    "menu-item#clothing-category": {
         "props": {
             "blockClass": [
                 "subtitle__menu-item"
