@@ -1,6 +1,7 @@
 {
     "menu-item#main__title":{
         "props": {
+            "blockClass": ["main__title--menu"],
             "id": "menu-item-shop",
             "type": "custom",
             "highlight": false,

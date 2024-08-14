@@ -8,7 +8,8 @@
             "blockClass": [
                 "main__menu--burger"
             ],
-            "textType": "heading1"
+            "textType": "heading1",
+            "experimentalOptimizeRendering": true
         }
     },
     "menu-item#shop": {
@@ -32,9 +33,8 @@
                 "viewBox": "0 0 24 24",
                 //"activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
-            },
-            "iconPosition": "right"
-            //"iconToTheRight": true
+            }
+            //"iconPosition": "right"
         },
         "blocks": [
             "vtex.menu@2.x:submenu#main_categories_shop"
@@ -66,8 +66,10 @@
             "menu-item#household"
         ],
         "props": {
-            "textType": "heading1",
-            "orientation": "vertical"
+            "blockClass":["submenu__main--categories"],
+            "orientation": "vertical",
+            "textType":"heading1"
+            
         }
     }
     /* "menu-item#dealsx": {

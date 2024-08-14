@@ -1,0 +1,24 @@
+.styledLinkContent--subtitle__menu-item {
+    color: #1D2734;
+    font-family: "Lexend", Courier, monospace;
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align : left;
+
+}
+
+.submenuWrapper--submenu__main--categories {
+    background-color: #ffff !important;
+}
+
+.styledLinkContent--main__title--menu {
+    font-family: Lexend;
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align : left;
+    color      : #1D2734;
+    /* var(--text-main) */
+
+}

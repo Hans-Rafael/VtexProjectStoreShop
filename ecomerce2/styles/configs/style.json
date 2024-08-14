@@ -144,7 +144,8 @@
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "#f2f4f5"
+      "muted-5": "#f2f4f5",
+      "main": "#1D2734"
     },
     "visited-text": {
       "link": "#0c389f"
