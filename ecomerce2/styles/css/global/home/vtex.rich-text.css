@@ -7,6 +7,20 @@
   text-align : center;
 }
 
+.paragraph--subtitle--text {
+  margin-top: 40px;
+}
+
+.wrapper--subtitle--text {
+  font-family: "lexend";
+  font-weight: 500;
+  font-size  : 16px;
+  line-height: 16.8px;
+  margin-left: 72px;
+  /* 50px */
+  text-align : left;
+}
+
 .wrapper--price__off--text {
   display         : flex;
   background-color: black;
@@ -81,15 +95,7 @@
   line-height : 1;
 }
 
-.wrapper--subtitle--text {
-  font-family: "lexend";
-  font-weight: 500;
-  font-size  : 16px;
-  line-height: 16.8px;
-  margin-left: 50px;
-  /* 13%; */
-  text-align : left;
-}
+
 
 .wrapper--text--format__row2 {
   font-family: "lexend";

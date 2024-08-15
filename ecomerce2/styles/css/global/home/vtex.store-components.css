@@ -8,12 +8,6 @@
   opacity         : 0px;
   background-color: #f5f4f6;
 }
-
-/* .container{
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-} */
+.imageElementLink--hero_bar--img{
+  height: 422px;
+}
