@@ -63,12 +63,12 @@
   "image#card": {
     "title": "Info card image",
     "props": {
-      "src": "assets/img/card_slider_one_infocard/Card_element.png",
+      "src": "assets/img/home/desktop/card_slider_one_infocard/Card_element.png",
       "blockClass": [
         "card__image--card"
       ],
       "link": {
-        "url": "https://",
+        "url": "#",
         "noFollow": false
       }
     }
@@ -132,7 +132,7 @@
   "image#stamp": {
     "title": "Stamp image card",
     "props": {
-      "src": "assets/img/card_slider_one_infocard/stamp.png ",
+      "src": "assets/img/home/desktop/card_slider_one_infocard/stamp.png ",
       "blockClass": [
         "stamp__image--card"
       ],
@@ -161,7 +161,7 @@
     "title": "button for go to 'ver el precio' ",
     "props": {
       "alt": "ver el precio",
-      "src": "assets/img/card_slider_one_infocard/see_price.png", //witgh134x43
+      "src": "assets/img/home/desktop/card_slider_one_infocard/see_price.png", //witgh134x43
       "link": {
         "url": "https://",
         "noFollow": false
