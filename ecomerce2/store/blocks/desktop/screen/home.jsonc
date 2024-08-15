@@ -3,10 +3,10 @@
     "title": "Home Desktop responsive container",
     "children": [
       "flex-layout.row#home__section-1",
-      "flex-layout.row#subtitle"
-     /*  "flex-layout.row#slider1__infoCards",
       "flex-layout.row#subtitle",
-      "flex-layout.row#slider__product--list",
+      "flex-layout.row#slider1__infoCards",
+      "flex-layout.row#subtitle"
+      /*"flex-layout.row#slider__product--list",
       "flex-layout.row#subtitle",
       "flex-layout.row#slider1__infoCards",
       "flex-layout.row#subtitle",
