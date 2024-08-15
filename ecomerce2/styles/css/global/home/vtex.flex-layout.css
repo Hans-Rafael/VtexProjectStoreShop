@@ -60,7 +60,7 @@
   align-items  : center;
   padding-left : 50px;
   padding-right: 50px;
-  max-width: 1280px;
+  max-width    : 1280px;
 }
 
 .flexRow--Slider__cointeiner {
@@ -192,8 +192,15 @@
   justify-content: center;
 }
 
-.flexRow--row__one--images {
-  background-color: #f5f4f6;
+.flexRow {
+  max-width: 1280px;
+  
+  width    : 100%;
+  
+  margin   : 0 auto;
+
+  overflow : hidden;
+
 }
 
 /****   mobile   ***/

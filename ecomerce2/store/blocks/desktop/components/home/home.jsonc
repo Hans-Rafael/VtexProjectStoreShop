@@ -1,15 +1,32 @@
 {
     "flex-layout.row#home__section-1": {
         "title": "The Hero Bar",
-        "children": [
+        "children":[
+            "image#hero_bar"
+        ],
+        /* "children": [
             "flex-layout.col#desktop__col1__watch--home",
             "flex-layout.col#desktop__col2__img_txt--home",
             "flex-layout.col#desktop__col3__watch_two--home"
-        ],
+        ], */
         "props": {
             "blockClass": "row__one--images"
         }
     },
+    "image#hero_bar": {
+        "title": "Image_one_watch_hero",
+        "props": {
+            "blockClass":["hero_bar--img"],
+            "src": "assets/img/home/desktop/card_slider_one_infocard/Hero Desktop.png",
+            "alt": "watch upside down",
+            "link": {
+                "url": "#",
+                "noFollow": false
+            }
+        }
+    },
+    /*****************/
+
     "flex-layout.col#desktop__col1__watch--home": {
         "title": "Desktop hero image col one home",
         "children": [
@@ -18,7 +35,7 @@
         "props": {
             "width": "34%",
             "link": {
-                "url": "https://",
+                "url": "#",
                 "noFollow": false
             }
         }
@@ -53,7 +70,7 @@
             "src": "assets/img/watch.png",
             "alt": "watch upside down",
             "link": {
-                "url": "https://",
+                "url": "#",
                 "noFollow": false
             }
         }
@@ -64,16 +81,18 @@
             "src": "assets/img/watch_upside_down.png",
             "alt": "watch upside down",
             "link": {
-        "url": "https://",
-        "noFollow": false
-      }
-            
+                "url": "#",
+                "noFollow": false
+            }
         }
     },
     "image#text_hero": {
         "title": "Text_image hero desktop home",
         "props": {
-            "src": "assets/img/Texts.png"
+            "src": "assets/img/Texts.png",
+            "link": {
+                "url": "#"
+            }
         }
     },
     "image#button_hero_home": {
@@ -82,7 +101,7 @@
             "src": "assets/img/Button.png",
             "blockClass": "desktop__buttonHero__home--image",
             "link": {
-                "url": "https://"
+                "url": "#"
             }
         }
     }
