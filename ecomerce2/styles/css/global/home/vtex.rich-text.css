@@ -49,20 +49,24 @@
 }
 
 .wrapper--text--title {
-  font-weight    : bold;
+  font-weight    : 600;
   color          : #1d2734;
   margin-left    : 15px;
+  Line-height    : 24.88px;
+  font           : 600;
+  font-size      : 16px;
   text-decoration: none;
+  height         : 25px;
 }
 
 .wrapper--text--description {
-  color          : #1d2734;
-  font-size      : 12px;
-  font-weight    : 300;
-  line-height    : 14.52px;
-  text-align     : left;
-  margin-left    : 15px;
-  text-decoration: none;
+  color      : #1d2734;
+  font-size  : 12px;
+  font-weight: 300;
+  line-height: 14.52px;
+  text-align : left;
+  margin-left: 15px;
+  margin-top : 20px;
 }
 
 .wrapper--Descrition--text {
@@ -130,9 +134,24 @@
 .link--text--description {
   color          : #1d2734;
   text-decoration: none;
+  font-size      : 12px;
+  line-height    : 14.52px;
+  font-weight    : 300;
+  font-family    : "lexend";
 }
 
 .link--text--title {
   color          : #1d2734;
   text-decoration: none;
+}
+
+.container--text--description {
+  font-family: "Lexend";
+  font-weight: 300;
+  line-height: 14.52px;
+  font-size  : 12px;
+}
+
+.container--text--title {
+  height: 13.8px;
 }

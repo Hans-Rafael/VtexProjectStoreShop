@@ -121,10 +121,10 @@
   max-height: 420px;
 }
 
+/* info cards */
 .sliderTrackContainer--slider-images {
   height       : 340px;
   width        : 1092px;
-  margin-left  : 94px;
   gap          : 24px;
   opacity      : 0px;
   margin-bottom: 25px;
@@ -134,4 +134,40 @@
   .sliderTrackContainer--slider-images {
     margin-left: 16px;
   }
+}
+/*slider infocardds**/
+.sliderTrack--slider-images {
+  width: 470% !important;
+  max-height: 340px;
+  /* 3 card y 20% otra */
+}
+
+.sliderLayoutContainer--slider-images {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.sliderTrack--info__card--home {
+  height: 340px;
+}
+
+/* arrows info cards slider */
+.sliderLeftArrow {
+  position: absolute;
+  left    : 66px;
+  top     : 50%;
+  width   : 34px;
+  height  : 24px;
+}
+
+.sliderRightArrow {
+  position: absolute;
+  top     : 50%;
+  right   : 46px;
+  width   : 34px;
+  height  : 24px;
+}
+.flexColChild--full__card{
+  margin-bottom: 13.8px;
 }

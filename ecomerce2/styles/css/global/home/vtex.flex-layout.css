@@ -71,6 +71,10 @@
   background-color: #f5f4f6;
 }
 
+.flexRowContent--row__image--card {
+  height: 186.62px;
+}
+
 .flexRow--Slider2__container {
   background-color: #f5f4f6;
   margin-bottom   : 0px;
@@ -228,10 +232,26 @@
   width          : 100%;
 }
 
+.flexCol--icon--stamp {
+  margin-top: 13.8px;
+}
+
+.stretchChildrenWidth {
+  margin-bottom: 13.8px;
+}
+
+/*.flexColChild--full__card {
+  height: 186.62px;
+} */
+
 .flexCol--col_center__img__txt-imgs {
   display        : flex;
   justify-content: center;
   align-items    : center;
+}
+
+.flexColChild--card__title--description {
+  height: 25px;
 }
 
 .flexColChild--link__text {
